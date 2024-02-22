@@ -14,6 +14,23 @@
 		D04075D82B85DAC300C0EC1F /* SeekPlusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04075D72B85DAC300C0EC1F /* SeekPlusTests.swift */; };
 		D04075E22B85DAC300C0EC1F /* SeekPlusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04075E12B85DAC300C0EC1F /* SeekPlusUITests.swift */; };
 		D04075E42B85DAC300C0EC1F /* SeekPlusUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04075E32B85DAC300C0EC1F /* SeekPlusUITestsLaunchTests.swift */; };
+		D04076052B86DDDB00C0EC1F /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04076042B86DDDB00C0EC1F /* TabBarView.swift */; };
+		D04076082B86DE2900C0EC1F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04076072B86DE2900C0EC1F /* HomeView.swift */; };
+		D040760C2B86E09300C0EC1F /* ConfigurableImageStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D040760B2B86E09300C0EC1F /* ConfigurableImageStyle.swift */; };
+		D040760F2B86E1C900C0EC1F /* ImageAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D040760E2B86E1C900C0EC1F /* ImageAttributes.swift */; };
+		D04076122B86E58400C0EC1F /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04076112B86E58400C0EC1F /* AppColor.swift */; };
+		D04076142B86F44400C0EC1F /* AppliedJobsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04076132B86F44400C0EC1F /* AppliedJobsView.swift */; };
+		D04076162B86F46500C0EC1F /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04076152B86F46500C0EC1F /* ProfileView.swift */; };
+		D04076192B8703AC00C0EC1F /* TextAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04076182B8703AC00C0EC1F /* TextAttributes.swift */; };
+		D040761B2B8707D100C0EC1F /* ConfigurableTextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D040761A2B8707D100C0EC1F /* ConfigurableTextStyle.swift */; };
+		D040761D2B870C3B00C0EC1F /* TabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D040761C2B870C3B00C0EC1F /* TabBarItem.swift */; };
+		D040761F2B8713DB00C0EC1F /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D040761E2B8713DB00C0EC1F /* LoginView.swift */; };
+		D04076222B87202000C0EC1F /* Margin.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04076212B87202000C0EC1F /* Margin.swift */; };
+		D04076252B873D4000C0EC1F /* DefaultTextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04076242B873D4000C0EC1F /* DefaultTextFieldStyle.swift */; };
+		D04076272B8764A100C0EC1F /* LoginField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04076262B8764A100C0EC1F /* LoginField.swift */; };
+		D040762A2B87683D00C0EC1F /* ConfigurableButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04076292B87683D00C0EC1F /* ConfigurableButtonStyle.swift */; };
+		D040762C2B87689100C0EC1F /* ButtonAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D040762B2B87689100C0EC1F /* ButtonAttributes.swift */; };
+		D04076302B87818F00C0EC1F /* JobCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D040762F2B87818F00C0EC1F /* JobCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +61,23 @@
 		D04075DD2B85DAC300C0EC1F /* SeekPlusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeekPlusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D04075E12B85DAC300C0EC1F /* SeekPlusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeekPlusUITests.swift; sourceTree = "<group>"; };
 		D04075E32B85DAC300C0EC1F /* SeekPlusUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeekPlusUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D04076042B86DDDB00C0EC1F /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		D04076072B86DE2900C0EC1F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D040760B2B86E09300C0EC1F /* ConfigurableImageStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurableImageStyle.swift; sourceTree = "<group>"; };
+		D040760E2B86E1C900C0EC1F /* ImageAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageAttributes.swift; sourceTree = "<group>"; };
+		D04076112B86E58400C0EC1F /* AppColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColor.swift; sourceTree = "<group>"; };
+		D04076132B86F44400C0EC1F /* AppliedJobsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppliedJobsView.swift; sourceTree = "<group>"; };
+		D04076152B86F46500C0EC1F /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		D04076182B8703AC00C0EC1F /* TextAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAttributes.swift; sourceTree = "<group>"; };
+		D040761A2B8707D100C0EC1F /* ConfigurableTextStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurableTextStyle.swift; sourceTree = "<group>"; };
+		D040761C2B870C3B00C0EC1F /* TabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItem.swift; sourceTree = "<group>"; };
+		D040761E2B8713DB00C0EC1F /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		D04076212B87202000C0EC1F /* Margin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Margin.swift; sourceTree = "<group>"; };
+		D04076242B873D4000C0EC1F /* DefaultTextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultTextFieldStyle.swift; sourceTree = "<group>"; };
+		D04076262B8764A100C0EC1F /* LoginField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginField.swift; sourceTree = "<group>"; };
+		D04076292B87683D00C0EC1F /* ConfigurableButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurableButtonStyle.swift; sourceTree = "<group>"; };
+		D040762B2B87689100C0EC1F /* ButtonAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonAttributes.swift; sourceTree = "<group>"; };
+		D040762F2B87818F00C0EC1F /* JobCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +128,8 @@
 		D04075C52B85DAC200C0EC1F /* SeekPlus */ = {
 			isa = PBXGroup;
 			children = (
+				D04075F02B85F44200C0EC1F /* Features */,
+				D04076092B86DFEA00C0EC1F /* UIDesign */,
 				D04075C62B85DAC200C0EC1F /* SeekPlusApp.swift */,
 				D04075C82B85DAC200C0EC1F /* ContentView.swift */,
 				D04075CA2B85DAC300C0EC1F /* Assets.xcassets */,
@@ -125,6 +161,269 @@
 				D04075E32B85DAC300C0EC1F /* SeekPlusUITestsLaunchTests.swift */,
 			);
 			path = SeekPlusUITests;
+			sourceTree = "<group>";
+		};
+		D04075F02B85F44200C0EC1F /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				D04075FF2B85F68500C0EC1F /* Login */,
+				D04075FD2B85F51800C0EC1F /* TabBar */,
+				D04075F12B85F45300C0EC1F /* Home */,
+				D04075F32B85F46400C0EC1F /* AppliedJobs */,
+				D04075F22B85F45800C0EC1F /* Profile */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		D04075F12B85F45300C0EC1F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D04075F42B85F47000C0EC1F /* UI */,
+				D04075F52B85F48600C0EC1F /* Domain */,
+				D04075F62B85F4C600C0EC1F /* Data */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		D04075F22B85F45800C0EC1F /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				D04075FC2B85F50100C0EC1F /* UI */,
+				D04075FB2B85F4F400C0EC1F /* Domain */,
+				D04075FA2B85F4EE00C0EC1F /* Data */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		D04075F32B85F46400C0EC1F /* AppliedJobs */ = {
+			isa = PBXGroup;
+			children = (
+				D04075F92B85F4E300C0EC1F /* UI */,
+				D04075F82B85F4DD00C0EC1F /* Domain */,
+				D04075F72B85F4D400C0EC1F /* Data */,
+			);
+			path = AppliedJobs;
+			sourceTree = "<group>";
+		};
+		D04075F42B85F47000C0EC1F /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				D04076062B86DE1A00C0EC1F /* View */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		D04075F52B85F48600C0EC1F /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		D04075F62B85F4C600C0EC1F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		D04075F72B85F4D400C0EC1F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		D04075F82B85F4DD00C0EC1F /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		D04075F92B85F4E300C0EC1F /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				D04076132B86F44400C0EC1F /* AppliedJobsView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		D04075FA2B85F4EE00C0EC1F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		D04075FB2B85F4F400C0EC1F /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		D04075FC2B85F50100C0EC1F /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				D04076152B86F46500C0EC1F /* ProfileView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		D04075FD2B85F51800C0EC1F /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				D04075FE2B85F52700C0EC1F /* UI */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		D04075FE2B85F52700C0EC1F /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				D04076032B86DDC400C0EC1F /* View */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		D04075FF2B85F68500C0EC1F /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				D04076002B85F68C00C0EC1F /* UI */,
+				D04076022B85F69800C0EC1F /* Domain */,
+				D04076012B85F69100C0EC1F /* Data */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		D04076002B85F68C00C0EC1F /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				D040762D2B8773FB00C0EC1F /* DataModel */,
+				D040761E2B8713DB00C0EC1F /* LoginView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		D04076012B85F69100C0EC1F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		D04076022B85F69800C0EC1F /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		D04076032B86DDC400C0EC1F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D04076042B86DDDB00C0EC1F /* TabBarView.swift */,
+				D040761C2B870C3B00C0EC1F /* TabBarItem.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D04076062B86DE1A00C0EC1F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D04076072B86DE2900C0EC1F /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D04076092B86DFEA00C0EC1F /* UIDesign */ = {
+			isa = PBXGroup;
+			children = (
+				D04076202B87200500C0EC1F /* Attributes */,
+				D04076102B86E55C00C0EC1F /* ColorPalette */,
+				D040760A2B86E01500C0EC1F /* Components */,
+			);
+			path = UIDesign;
+			sourceTree = "<group>";
+		};
+		D040760A2B86E01500C0EC1F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				D040762E2B87817B00C0EC1F /* JobCardView */,
+				D04076282B87682100C0EC1F /* ConfigurableButtonStyle */,
+				D04076232B873D0200C0EC1F /* CustomTextFieldStyle */,
+				D04076172B87039200C0EC1F /* ConfigurableTextStyle */,
+				D040760D2B86E10900C0EC1F /* ConfigurableImageStyle */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		D040760D2B86E10900C0EC1F /* ConfigurableImageStyle */ = {
+			isa = PBXGroup;
+			children = (
+				D040760B2B86E09300C0EC1F /* ConfigurableImageStyle.swift */,
+				D040760E2B86E1C900C0EC1F /* ImageAttributes.swift */,
+			);
+			path = ConfigurableImageStyle;
+			sourceTree = "<group>";
+		};
+		D04076102B86E55C00C0EC1F /* ColorPalette */ = {
+			isa = PBXGroup;
+			children = (
+				D04076112B86E58400C0EC1F /* AppColor.swift */,
+			);
+			path = ColorPalette;
+			sourceTree = "<group>";
+		};
+		D04076172B87039200C0EC1F /* ConfigurableTextStyle */ = {
+			isa = PBXGroup;
+			children = (
+				D04076182B8703AC00C0EC1F /* TextAttributes.swift */,
+				D040761A2B8707D100C0EC1F /* ConfigurableTextStyle.swift */,
+			);
+			path = ConfigurableTextStyle;
+			sourceTree = "<group>";
+		};
+		D04076202B87200500C0EC1F /* Attributes */ = {
+			isa = PBXGroup;
+			children = (
+				D04076212B87202000C0EC1F /* Margin.swift */,
+			);
+			path = Attributes;
+			sourceTree = "<group>";
+		};
+		D04076232B873D0200C0EC1F /* CustomTextFieldStyle */ = {
+			isa = PBXGroup;
+			children = (
+				D04076242B873D4000C0EC1F /* DefaultTextFieldStyle.swift */,
+			);
+			path = CustomTextFieldStyle;
+			sourceTree = "<group>";
+		};
+		D04076282B87682100C0EC1F /* ConfigurableButtonStyle */ = {
+			isa = PBXGroup;
+			children = (
+				D04076292B87683D00C0EC1F /* ConfigurableButtonStyle.swift */,
+				D040762B2B87689100C0EC1F /* ButtonAttributes.swift */,
+			);
+			path = ConfigurableButtonStyle;
+			sourceTree = "<group>";
+		};
+		D040762D2B8773FB00C0EC1F /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				D04076262B8764A100C0EC1F /* LoginField.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		D040762E2B87817B00C0EC1F /* JobCardView */ = {
+			isa = PBXGroup;
+			children = (
+				D040762F2B87818F00C0EC1F /* JobCardView.swift */,
+			);
+			path = JobCardView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +556,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D04076142B86F44400C0EC1F /* AppliedJobsView.swift in Sources */,
+				D04076252B873D4000C0EC1F /* DefaultTextFieldStyle.swift in Sources */,
+				D04076192B8703AC00C0EC1F /* TextAttributes.swift in Sources */,
+				D04076162B86F46500C0EC1F /* ProfileView.swift in Sources */,
+				D040761B2B8707D100C0EC1F /* ConfigurableTextStyle.swift in Sources */,
+				D040760C2B86E09300C0EC1F /* ConfigurableImageStyle.swift in Sources */,
 				D04075C92B85DAC200C0EC1F /* ContentView.swift in Sources */,
+				D040761D2B870C3B00C0EC1F /* TabBarItem.swift in Sources */,
+				D04076272B8764A100C0EC1F /* LoginField.swift in Sources */,
+				D04076082B86DE2900C0EC1F /* HomeView.swift in Sources */,
+				D04076122B86E58400C0EC1F /* AppColor.swift in Sources */,
+				D040760F2B86E1C900C0EC1F /* ImageAttributes.swift in Sources */,
+				D04076302B87818F00C0EC1F /* JobCardView.swift in Sources */,
+				D040761F2B8713DB00C0EC1F /* LoginView.swift in Sources */,
+				D04076222B87202000C0EC1F /* Margin.swift in Sources */,
+				D040762C2B87689100C0EC1F /* ButtonAttributes.swift in Sources */,
+				D04076052B86DDDB00C0EC1F /* TabBarView.swift in Sources */,
 				D04075C72B85DAC200C0EC1F /* SeekPlusApp.swift in Sources */,
+				D040762A2B87683D00C0EC1F /* ConfigurableButtonStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
