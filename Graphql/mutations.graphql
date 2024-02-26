@@ -1,0 +1,9 @@
+## Mutations
+
+mutation AuthUser($username: String!, $password: String!) {
+  auth(username: $username, password: $password)
+}
+
+mutation Apply($jobId: String!) {
+  apply(jobId: $jobId)
+}

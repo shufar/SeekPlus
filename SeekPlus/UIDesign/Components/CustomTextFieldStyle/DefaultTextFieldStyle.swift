@@ -2,24 +2,32 @@
 //  SelectedTextFieldStyle.swift
 //  SeekPlus
 //
-//  Created by Shubh on 22/02/2024.
+//  Created by Shubham
 //
 
 import SwiftUI
 
 struct DefaultTextFieldStyle: TextFieldStyle {
     var isEditing: Bool
-    
+    var attributes: TextFieldAttributes
+
+    init(isEditing: Bool, _ attributes: TextFieldAttributes = .default) {
+        self.isEditing = isEditing
+        self.attributes = attributes
+    }
+
     func _body(configuration: TextField<Self._Label>) -> some View {
         configuration
-            .textStyle(TextAttributes(style: .title2))
+            .textStyle(attributes.textAtteibutes)
             .padding(Margin.default.value)
             .overlay(
-                RoundedRectangle(cornerRadius: 8)
+                RoundedRectangle(cornerRadius: attributes.cornerRadius)
                     .stroke(isEditing
-                            ? AppColor.textFieldBorder.color
-                            : AppColor.textPrimary.color,
-                            lineWidth: isEditing ? 6 : 2)
+                            ? attributes.editingBorderColor
+                            : attributes.normalBorderColor,
+                            lineWidth: isEditing
+                            ? attributes.editingBorderWidth
+                            : attributes.normalBorderWidth)
             )
     }
 }

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -31,6 +31,59 @@
 		D040762A2B87683D00C0EC1F /* ConfigurableButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04076292B87683D00C0EC1F /* ConfigurableButtonStyle.swift */; };
 		D040762C2B87689100C0EC1F /* ButtonAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D040762B2B87689100C0EC1F /* ButtonAttributes.swift */; };
 		D04076302B87818F00C0EC1F /* JobCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D040762F2B87818F00C0EC1F /* JobCardView.swift */; };
+		D04076322B87889B00C0EC1F /* JobCardContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04076312B87889B00C0EC1F /* JobCardContent.swift */; };
+		D04076352B87AC2A00C0EC1F /* ConfigurableBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04076342B87AC2A00C0EC1F /* ConfigurableBackgroundView.swift */; };
+		D04076372B87AFFA00C0EC1F /* BackgroundAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04076362B87AFFA00C0EC1F /* BackgroundAttributes.swift */; };
+		D04076392B87B09100C0EC1F /* CornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04076382B87B09100C0EC1F /* CornerRadius.swift */; };
+		D040763B2B87B93800C0EC1F /* ImageSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = D040763A2B87B93800C0EC1F /* ImageSize.swift */; };
+		D040763E2B87C2A500C0EC1F /* JobDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D040763D2B87C2A500C0EC1F /* JobDetailsView.swift */; };
+		D04076402B87C53300C0EC1F /* JobDetailsContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D040763F2B87C53300C0EC1F /* JobDetailsContent.swift */; };
+		D04076432B89A63100C0EC1F /* HomeViewModelContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04076422B89A63100C0EC1F /* HomeViewModelContract.swift */; };
+		D04076492B8ADED600C0EC1F /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = D04076482B8ADED600C0EC1F /* Swinject */; };
+		D040764B2B8ADED600C0EC1F /* Swinject-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = D040764A2B8ADED600C0EC1F /* Swinject-Dynamic */; };
+		D04076562B8B37BB00C0EC1F /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = D04076552B8B37BB00C0EC1F /* Apollo */; };
+		D04076622B8B5E2F00C0EC1F /* SeekPlusAPI in Frameworks */ = {isa = PBXBuildFile; productRef = D04076612B8B5E2F00C0EC1F /* SeekPlusAPI */; };
+		D04076652B8B5F0C00C0EC1F /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04076642B8B5F0C00C0EC1F /* Network.swift */; };
+		D040766A2B8B73D600C0EC1F /* KeychainHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04076692B8B73D600C0EC1F /* KeychainHelper.swift */; };
+		D040766C2B8B742800C0EC1F /* TokenInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D040766B2B8B742800C0EC1F /* TokenInterceptor.swift */; };
+		D040766E2B8B74E900C0EC1F /* NetworkInterceptorProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D040766D2B8B74E900C0EC1F /* NetworkInterceptorProvider.swift */; };
+		D04076702B8B977D00C0EC1F /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D040766F2B8B977D00C0EC1F /* HomeViewModel.swift */; };
+		D04076722B8B99BD00C0EC1F /* HomeInteractorContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04076712B8B99BD00C0EC1F /* HomeInteractorContract.swift */; };
+		D04076752B8B9D9000C0EC1F /* JobApiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04076742B8B9D9000C0EC1F /* JobApiModel.swift */; };
+		D04076772B8B9E6A00C0EC1F /* HomeServiceContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04076762B8B9E6A00C0EC1F /* HomeServiceContract.swift */; };
+		D040767A2B8B9EFA00C0EC1F /* HomeAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04076792B8B9EFA00C0EC1F /* HomeAssembly.swift */; };
+		D040767C2B8BA3A500C0EC1F /* HomeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D040767B2B8BA3A500C0EC1F /* HomeService.swift */; };
+		D040767F2B8BA58700C0EC1F /* ActiveJobListApiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D040767E2B8BA58600C0EC1F /* ActiveJobListApiModel.swift */; };
+		D04076812B8BBCB900C0EC1F /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04076802B8BBCB900C0EC1F /* HomeInteractor.swift */; };
+		D04076842B8BBEBE00C0EC1F /* SwinjectAutoregistration in Frameworks */ = {isa = PBXBuildFile; productRef = D04076832B8BBEBE00C0EC1F /* SwinjectAutoregistration */; };
+		D04076862B8BBEBE00C0EC1F /* SwinjectAutoregistration-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = D04076852B8BBEBE00C0EC1F /* SwinjectAutoregistration-Dynamic */; };
+		D04076882B8BC51700C0EC1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04076872B8BC51700C0EC1F /* AppDelegate.swift */; };
+		D040768F2B8BFBFB00C0EC1F /* TextFieldAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D040768E2B8BFBFB00C0EC1F /* TextFieldAttributes.swift */; };
+		D04076932B8C03F100C0EC1F /* AppliedJobsViewModelContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04076922B8C03F100C0EC1F /* AppliedJobsViewModelContract.swift */; };
+		D04076952B8C044000C0EC1F /* AppliedJobsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04076942B8C044000C0EC1F /* AppliedJobsViewModel.swift */; };
+		D04076982B8C06F400C0EC1F /* AppliedJobsAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04076972B8C06F400C0EC1F /* AppliedJobsAssembly.swift */; };
+		D07EC8232B8C4DED003CA4B6 /* JobDetailsAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07EC8222B8C4DED003CA4B6 /* JobDetailsAssembly.swift */; };
+		D0801AD02B8C16C900DE955A /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0801ACF2B8C16C900DE955A /* LoginViewModel.swift */; };
+		D0801AD22B8C16F000DE955A /* LoginViewModelContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0801AD12B8C16F000DE955A /* LoginViewModelContract.swift */; };
+		D0801AD42B8C172300DE955A /* LoginInteractorContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0801AD32B8C172300DE955A /* LoginInteractorContract.swift */; };
+		D0801AD72B8C17B000DE955A /* LoginServiceContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0801AD62B8C17B000DE955A /* LoginServiceContract.swift */; };
+		D0801AD92B8C17F100DE955A /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0801AD82B8C17F100DE955A /* LoginInteractor.swift */; };
+		D0801ADB2B8C184000DE955A /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0801ADA2B8C184000DE955A /* LoginService.swift */; };
+		D0801ADD2B8C18B100DE955A /* mutations.graphql in Resources */ = {isa = PBXBuildFile; fileRef = D0801ADC2B8C18B100DE955A /* mutations.graphql */; };
+		D0801AE02B8C193800DE955A /* AuthApiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0801ADF2B8C193800DE955A /* AuthApiModel.swift */; };
+		D0801AE22B8C232C00DE955A /* LoginAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0801AE12B8C232C00DE955A /* LoginAssembly.swift */; };
+		D0801AE42B8C3D4500DE955A /* AuthKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0801AE32B8C3D4500DE955A /* AuthKeys.swift */; };
+		D0801AE62B8C3E8800DE955A /* ApplyJobInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0801AE52B8C3E8800DE955A /* ApplyJobInteractor.swift */; };
+		D0801AE82B8C3E9700DE955A /* ApplyJobInteractorContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0801AE72B8C3E9700DE955A /* ApplyJobInteractorContract.swift */; };
+		D0801AEB2B8C3EDB00DE955A /* ApplyJobApiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0801AEA2B8C3EDB00DE955A /* ApplyJobApiModel.swift */; };
+		D0801AED2B8C3F7900DE955A /* ApplyJobServiceContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0801AEC2B8C3F7900DE955A /* ApplyJobServiceContract.swift */; };
+		D0801AEF2B8C400700DE955A /* ApplyJobService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0801AEE2B8C400700DE955A /* ApplyJobService.swift */; };
+		D0801AF42B8C42F800DE955A /* JobDetailsViewModelContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0801AF32B8C42F800DE955A /* JobDetailsViewModelContract.swift */; };
+		D0801AF62B8C434D00DE955A /* JobDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0801AF52B8C434D00DE955A /* JobDetailsViewModel.swift */; };
+		D0801AFA2B8C46D500DE955A /* JobDetailsInteractorContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0801AF92B8C46D500DE955A /* JobDetailsInteractorContract.swift */; };
+		D0801AFC2B8C473100DE955A /* JobDetailsServiceContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0801AFB2B8C473100DE955A /* JobDetailsServiceContract.swift */; };
+		D0801AFE2B8C475700DE955A /* JobDetailsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0801AFD2B8C475700DE955A /* JobDetailsService.swift */; };
+		D0801B002B8C484E00DE955A /* JobDetailsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0801AFF2B8C484E00DE955A /* JobDetailsInteractor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +131,55 @@
 		D04076292B87683D00C0EC1F /* ConfigurableButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurableButtonStyle.swift; sourceTree = "<group>"; };
 		D040762B2B87689100C0EC1F /* ButtonAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonAttributes.swift; sourceTree = "<group>"; };
 		D040762F2B87818F00C0EC1F /* JobCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobCardView.swift; sourceTree = "<group>"; };
+		D04076312B87889B00C0EC1F /* JobCardContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobCardContent.swift; sourceTree = "<group>"; };
+		D04076342B87AC2A00C0EC1F /* ConfigurableBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurableBackgroundView.swift; sourceTree = "<group>"; };
+		D04076362B87AFFA00C0EC1F /* BackgroundAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundAttributes.swift; sourceTree = "<group>"; };
+		D04076382B87B09100C0EC1F /* CornerRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerRadius.swift; sourceTree = "<group>"; };
+		D040763A2B87B93800C0EC1F /* ImageSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSize.swift; sourceTree = "<group>"; };
+		D040763D2B87C2A500C0EC1F /* JobDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDetailsView.swift; sourceTree = "<group>"; };
+		D040763F2B87C53300C0EC1F /* JobDetailsContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDetailsContent.swift; sourceTree = "<group>"; };
+		D04076422B89A63100C0EC1F /* HomeViewModelContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModelContract.swift; sourceTree = "<group>"; };
+		D040765D2B8B5CE300C0EC1F /* schema.graphqls */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = schema.graphqls; sourceTree = "<group>"; };
+		D040765F2B8B5D2400C0EC1F /* queries.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = queries.graphql; sourceTree = "<group>"; };
+		D04076642B8B5F0C00C0EC1F /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		D04076692B8B73D600C0EC1F /* KeychainHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainHelper.swift; sourceTree = "<group>"; };
+		D040766B2B8B742800C0EC1F /* TokenInterceptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenInterceptor.swift; sourceTree = "<group>"; };
+		D040766D2B8B74E900C0EC1F /* NetworkInterceptorProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkInterceptorProvider.swift; sourceTree = "<group>"; };
+		D040766F2B8B977D00C0EC1F /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		D04076712B8B99BD00C0EC1F /* HomeInteractorContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractorContract.swift; sourceTree = "<group>"; };
+		D04076742B8B9D9000C0EC1F /* JobApiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobApiModel.swift; sourceTree = "<group>"; };
+		D04076762B8B9E6A00C0EC1F /* HomeServiceContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeServiceContract.swift; sourceTree = "<group>"; };
+		D04076792B8B9EFA00C0EC1F /* HomeAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAssembly.swift; sourceTree = "<group>"; };
+		D040767B2B8BA3A500C0EC1F /* HomeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeService.swift; sourceTree = "<group>"; };
+		D040767E2B8BA58600C0EC1F /* ActiveJobListApiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveJobListApiModel.swift; sourceTree = "<group>"; };
+		D04076802B8BBCB900C0EC1F /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		D04076872B8BC51700C0EC1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D040768E2B8BFBFB00C0EC1F /* TextFieldAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldAttributes.swift; sourceTree = "<group>"; };
+		D04076922B8C03F100C0EC1F /* AppliedJobsViewModelContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppliedJobsViewModelContract.swift; sourceTree = "<group>"; };
+		D04076942B8C044000C0EC1F /* AppliedJobsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppliedJobsViewModel.swift; sourceTree = "<group>"; };
+		D04076972B8C06F400C0EC1F /* AppliedJobsAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppliedJobsAssembly.swift; sourceTree = "<group>"; };
+		D07EC8222B8C4DED003CA4B6 /* JobDetailsAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDetailsAssembly.swift; sourceTree = "<group>"; };
+		D0801ACF2B8C16C900DE955A /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		D0801AD12B8C16F000DE955A /* LoginViewModelContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModelContract.swift; sourceTree = "<group>"; };
+		D0801AD32B8C172300DE955A /* LoginInteractorContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractorContract.swift; sourceTree = "<group>"; };
+		D0801AD62B8C17B000DE955A /* LoginServiceContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginServiceContract.swift; sourceTree = "<group>"; };
+		D0801AD82B8C17F100DE955A /* LoginInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
+		D0801ADA2B8C184000DE955A /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+		D0801ADC2B8C18B100DE955A /* mutations.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = mutations.graphql; sourceTree = "<group>"; };
+		D0801ADF2B8C193800DE955A /* AuthApiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthApiModel.swift; sourceTree = "<group>"; };
+		D0801AE12B8C232C00DE955A /* LoginAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAssembly.swift; sourceTree = "<group>"; };
+		D0801AE32B8C3D4500DE955A /* AuthKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthKeys.swift; sourceTree = "<group>"; };
+		D0801AE52B8C3E8800DE955A /* ApplyJobInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplyJobInteractor.swift; sourceTree = "<group>"; };
+		D0801AE72B8C3E9700DE955A /* ApplyJobInteractorContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplyJobInteractorContract.swift; sourceTree = "<group>"; };
+		D0801AEA2B8C3EDB00DE955A /* ApplyJobApiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplyJobApiModel.swift; sourceTree = "<group>"; };
+		D0801AEC2B8C3F7900DE955A /* ApplyJobServiceContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplyJobServiceContract.swift; sourceTree = "<group>"; };
+		D0801AEE2B8C400700DE955A /* ApplyJobService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplyJobService.swift; sourceTree = "<group>"; };
+		D0801AF32B8C42F800DE955A /* JobDetailsViewModelContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = JobDetailsViewModelContract.swift; path = SeekPlus/Features/AppliedJobs/Data/JobDetailsViewModelContract.swift; sourceTree = SOURCE_ROOT; };
+		D0801AF52B8C434D00DE955A /* JobDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDetailsViewModel.swift; sourceTree = "<group>"; };
+		D0801AF92B8C46D500DE955A /* JobDetailsInteractorContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDetailsInteractorContract.swift; sourceTree = "<group>"; };
+		D0801AFB2B8C473100DE955A /* JobDetailsServiceContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDetailsServiceContract.swift; sourceTree = "<group>"; };
+		D0801AFD2B8C475700DE955A /* JobDetailsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDetailsService.swift; sourceTree = "<group>"; };
+		D0801AFF2B8C484E00DE955A /* JobDetailsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDetailsInteractor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +187,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D04076492B8ADED600C0EC1F /* Swinject in Frameworks */,
+				D04076622B8B5E2F00C0EC1F /* SeekPlusAPI in Frameworks */,
+				D04076842B8BBEBE00C0EC1F /* SwinjectAutoregistration in Frameworks */,
+				D04076562B8B37BB00C0EC1F /* Apollo in Frameworks */,
+				D04076862B8BBEBE00C0EC1F /* SwinjectAutoregistration-Dynamic in Frameworks */,
+				D040764B2B8ADED600C0EC1F /* Swinject-Dynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,10 +216,12 @@
 		D04075BA2B85DAC200C0EC1F = {
 			isa = PBXGroup;
 			children = (
+				D040765C2B8B5CE300C0EC1F /* Graphql */,
 				D04075C52B85DAC200C0EC1F /* SeekPlus */,
 				D04075D62B85DAC300C0EC1F /* SeekPlusTests */,
 				D04075E02B85DAC300C0EC1F /* SeekPlusUITests */,
 				D04075C42B85DAC200C0EC1F /* Products */,
+				D04076632B8B5E6C00C0EC1F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,8 +238,10 @@
 		D04075C52B85DAC200C0EC1F /* SeekPlus */ = {
 			isa = PBXGroup;
 			children = (
+				D04076662B8B627900C0EC1F /* NetworkService */,
 				D04075F02B85F44200C0EC1F /* Features */,
 				D04076092B86DFEA00C0EC1F /* UIDesign */,
+				D04076872B8BC51700C0EC1F /* AppDelegate.swift */,
 				D04075C62B85DAC200C0EC1F /* SeekPlusApp.swift */,
 				D04075C82B85DAC200C0EC1F /* ContentView.swift */,
 				D04075CA2B85DAC300C0EC1F /* Assets.xcassets */,
@@ -170,6 +282,7 @@
 				D04075FD2B85F51800C0EC1F /* TabBar */,
 				D04075F12B85F45300C0EC1F /* Home */,
 				D04075F32B85F46400C0EC1F /* AppliedJobs */,
+				D040763C2B87C23B00C0EC1F /* JobDetails */,
 				D04075F22B85F45800C0EC1F /* Profile */,
 			);
 			path = Features;
@@ -178,6 +291,7 @@
 		D04075F12B85F45300C0EC1F /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				D04076782B8B9EED00C0EC1F /* DI */,
 				D04075F42B85F47000C0EC1F /* UI */,
 				D04075F52B85F48600C0EC1F /* Domain */,
 				D04075F62B85F4C600C0EC1F /* Data */,
@@ -198,6 +312,7 @@
 		D04075F32B85F46400C0EC1F /* AppliedJobs */ = {
 			isa = PBXGroup;
 			children = (
+				D04076962B8C06E600C0EC1F /* DI */,
 				D04075F92B85F4E300C0EC1F /* UI */,
 				D04075F82B85F4DD00C0EC1F /* Domain */,
 				D04075F72B85F4D400C0EC1F /* Data */,
@@ -209,6 +324,7 @@
 			isa = PBXGroup;
 			children = (
 				D04076062B86DE1A00C0EC1F /* View */,
+				D04076412B89A37100C0EC1F /* ViewModel */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -216,6 +332,9 @@
 		D04075F52B85F48600C0EC1F /* Domain */ = {
 			isa = PBXGroup;
 			children = (
+				D04076732B8B9A3200C0EC1F /* DataModel */,
+				D04076712B8B99BD00C0EC1F /* HomeInteractorContract.swift */,
+				D04076802B8BBCB900C0EC1F /* HomeInteractor.swift */,
 			);
 			path = Domain;
 			sourceTree = "<group>";
@@ -223,6 +342,9 @@
 		D04075F62B85F4C600C0EC1F /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				D040767D2B8BA57100C0EC1F /* DataModel */,
+				D04076762B8B9E6A00C0EC1F /* HomeServiceContract.swift */,
+				D040767B2B8BA3A500C0EC1F /* HomeService.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -244,7 +366,8 @@
 		D04075F92B85F4E300C0EC1F /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				D04076132B86F44400C0EC1F /* AppliedJobsView.swift */,
+				D04076902B8C03CE00C0EC1F /* View */,
+				D04076912B8C03D800C0EC1F /* ViewModel */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -290,6 +413,7 @@
 		D04075FF2B85F68500C0EC1F /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				D0801AD52B8C179E00DE955A /* DI */,
 				D04076002B85F68C00C0EC1F /* UI */,
 				D04076022B85F69800C0EC1F /* Domain */,
 				D04076012B85F69100C0EC1F /* Data */,
@@ -301,7 +425,8 @@
 			isa = PBXGroup;
 			children = (
 				D040762D2B8773FB00C0EC1F /* DataModel */,
-				D040761E2B8713DB00C0EC1F /* LoginView.swift */,
+				D0801ACD2B8C16A400DE955A /* View */,
+				D0801ACE2B8C16B000DE955A /* ViewModel */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -309,6 +434,9 @@
 		D04076012B85F69100C0EC1F /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				D0801ADE2B8C192200DE955A /* DataModel */,
+				D0801AD62B8C17B000DE955A /* LoginServiceContract.swift */,
+				D0801ADA2B8C184000DE955A /* LoginService.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -316,6 +444,8 @@
 		D04076022B85F69800C0EC1F /* Domain */ = {
 			isa = PBXGroup;
 			children = (
+				D0801AD32B8C172300DE955A /* LoginInteractorContract.swift */,
+				D0801AD82B8C17F100DE955A /* LoginInteractor.swift */,
 			);
 			path = Domain;
 			sourceTree = "<group>";
@@ -323,8 +453,8 @@
 		D04076032B86DDC400C0EC1F /* View */ = {
 			isa = PBXGroup;
 			children = (
-				D04076042B86DDDB00C0EC1F /* TabBarView.swift */,
 				D040761C2B870C3B00C0EC1F /* TabBarItem.swift */,
+				D04076042B86DDDB00C0EC1F /* TabBarView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -351,10 +481,11 @@
 			isa = PBXGroup;
 			children = (
 				D040762E2B87817B00C0EC1F /* JobCardView */,
-				D04076282B87682100C0EC1F /* ConfigurableButtonStyle */,
-				D04076232B873D0200C0EC1F /* CustomTextFieldStyle */,
+				D04076332B87ABEB00C0EC1F /* ConfigurableBackgroundView */,
 				D04076172B87039200C0EC1F /* ConfigurableTextStyle */,
 				D040760D2B86E10900C0EC1F /* ConfigurableImageStyle */,
+				D04076282B87682100C0EC1F /* ConfigurableButtonStyle */,
+				D04076232B873D0200C0EC1F /* CustomTextFieldStyle */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -389,6 +520,8 @@
 			isa = PBXGroup;
 			children = (
 				D04076212B87202000C0EC1F /* Margin.swift */,
+				D04076382B87B09100C0EC1F /* CornerRadius.swift */,
+				D040763A2B87B93800C0EC1F /* ImageSize.swift */,
 			);
 			path = Attributes;
 			sourceTree = "<group>";
@@ -397,6 +530,7 @@
 			isa = PBXGroup;
 			children = (
 				D04076242B873D4000C0EC1F /* DefaultTextFieldStyle.swift */,
+				D040768E2B8BFBFB00C0EC1F /* TextFieldAttributes.swift */,
 			);
 			path = CustomTextFieldStyle;
 			sourceTree = "<group>";
@@ -414,6 +548,7 @@
 			isa = PBXGroup;
 			children = (
 				D04076262B8764A100C0EC1F /* LoginField.swift */,
+				D0801AE32B8C3D4500DE955A /* AuthKeys.swift */,
 			);
 			path = DataModel;
 			sourceTree = "<group>";
@@ -422,8 +557,246 @@
 			isa = PBXGroup;
 			children = (
 				D040762F2B87818F00C0EC1F /* JobCardView.swift */,
+				D04076312B87889B00C0EC1F /* JobCardContent.swift */,
 			);
 			path = JobCardView;
+			sourceTree = "<group>";
+		};
+		D04076332B87ABEB00C0EC1F /* ConfigurableBackgroundView */ = {
+			isa = PBXGroup;
+			children = (
+				D04076342B87AC2A00C0EC1F /* ConfigurableBackgroundView.swift */,
+				D04076362B87AFFA00C0EC1F /* BackgroundAttributes.swift */,
+			);
+			path = ConfigurableBackgroundView;
+			sourceTree = "<group>";
+		};
+		D040763C2B87C23B00C0EC1F /* JobDetails */ = {
+			isa = PBXGroup;
+			children = (
+				D07EC8212B8C4DD8003CA4B6 /* DI */,
+				D0801AF02B8C42C500DE955A /* UI */,
+				D0801AF72B8C46B900DE955A /* Domain */,
+				D0801AF82B8C46C100DE955A /* Data */,
+			);
+			path = JobDetails;
+			sourceTree = "<group>";
+		};
+		D04076412B89A37100C0EC1F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D04076422B89A63100C0EC1F /* HomeViewModelContract.swift */,
+				D040766F2B8B977D00C0EC1F /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D040765C2B8B5CE300C0EC1F /* Graphql */ = {
+			isa = PBXGroup;
+			children = (
+				D040765D2B8B5CE300C0EC1F /* schema.graphqls */,
+				D040765F2B8B5D2400C0EC1F /* queries.graphql */,
+				D0801ADC2B8C18B100DE955A /* mutations.graphql */,
+			);
+			path = Graphql;
+			sourceTree = "<group>";
+		};
+		D04076632B8B5E6C00C0EC1F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D04076662B8B627900C0EC1F /* NetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				D04076642B8B5F0C00C0EC1F /* Network.swift */,
+				D04076692B8B73D600C0EC1F /* KeychainHelper.swift */,
+				D040766B2B8B742800C0EC1F /* TokenInterceptor.swift */,
+				D040766D2B8B74E900C0EC1F /* NetworkInterceptorProvider.swift */,
+			);
+			path = NetworkService;
+			sourceTree = "<group>";
+		};
+		D04076732B8B9A3200C0EC1F /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				D04076742B8B9D9000C0EC1F /* JobApiModel.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		D04076782B8B9EED00C0EC1F /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				D04076792B8B9EFA00C0EC1F /* HomeAssembly.swift */,
+			);
+			path = DI;
+			sourceTree = "<group>";
+		};
+		D040767D2B8BA57100C0EC1F /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				D040767E2B8BA58600C0EC1F /* ActiveJobListApiModel.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		D04076902B8C03CE00C0EC1F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D04076132B86F44400C0EC1F /* AppliedJobsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D04076912B8C03D800C0EC1F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D04076922B8C03F100C0EC1F /* AppliedJobsViewModelContract.swift */,
+				D04076942B8C044000C0EC1F /* AppliedJobsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D04076962B8C06E600C0EC1F /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				D04076972B8C06F400C0EC1F /* AppliedJobsAssembly.swift */,
+			);
+			path = DI;
+			sourceTree = "<group>";
+		};
+		D07EC8212B8C4DD8003CA4B6 /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				D07EC8222B8C4DED003CA4B6 /* JobDetailsAssembly.swift */,
+			);
+			path = DI;
+			sourceTree = "<group>";
+		};
+		D07EC8242B8C5045003CA4B6 /* JobDetails */ = {
+			isa = PBXGroup;
+			children = (
+				D0801AF92B8C46D500DE955A /* JobDetailsInteractorContract.swift */,
+				D0801AFF2B8C484E00DE955A /* JobDetailsInteractor.swift */,
+			);
+			path = JobDetails;
+			sourceTree = "<group>";
+		};
+		D07EC8252B8C504D003CA4B6 /* ApplyJob */ = {
+			isa = PBXGroup;
+			children = (
+				D0801AE72B8C3E9700DE955A /* ApplyJobInteractorContract.swift */,
+				D0801AE52B8C3E8800DE955A /* ApplyJobInteractor.swift */,
+			);
+			path = ApplyJob;
+			sourceTree = "<group>";
+		};
+		D07EC8262B8C505B003CA4B6 /* ApplyJob */ = {
+			isa = PBXGroup;
+			children = (
+				D0801AE92B8C3ECD00DE955A /* DataModel */,
+				D0801AEC2B8C3F7900DE955A /* ApplyJobServiceContract.swift */,
+				D0801AEE2B8C400700DE955A /* ApplyJobService.swift */,
+			);
+			path = ApplyJob;
+			sourceTree = "<group>";
+		};
+		D07EC8272B8C5065003CA4B6 /* JobDetails */ = {
+			isa = PBXGroup;
+			children = (
+				D0801AFB2B8C473100DE955A /* JobDetailsServiceContract.swift */,
+				D0801AFD2B8C475700DE955A /* JobDetailsService.swift */,
+			);
+			path = JobDetails;
+			sourceTree = "<group>";
+		};
+		D0801ACD2B8C16A400DE955A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D040761E2B8713DB00C0EC1F /* LoginView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D0801ACE2B8C16B000DE955A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D0801ACF2B8C16C900DE955A /* LoginViewModel.swift */,
+				D0801AD12B8C16F000DE955A /* LoginViewModelContract.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D0801AD52B8C179E00DE955A /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				D0801AE12B8C232C00DE955A /* LoginAssembly.swift */,
+			);
+			path = DI;
+			sourceTree = "<group>";
+		};
+		D0801ADE2B8C192200DE955A /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				D0801ADF2B8C193800DE955A /* AuthApiModel.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		D0801AE92B8C3ECD00DE955A /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				D0801AEA2B8C3EDB00DE955A /* ApplyJobApiModel.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		D0801AF02B8C42C500DE955A /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				D0801AF12B8C42CB00DE955A /* View */,
+				D0801AF22B8C42D600DE955A /* ViewModel */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		D0801AF12B8C42CB00DE955A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D040763F2B87C53300C0EC1F /* JobDetailsContent.swift */,
+				D040763D2B87C2A500C0EC1F /* JobDetailsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D0801AF22B8C42D600DE955A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D0801AF32B8C42F800DE955A /* JobDetailsViewModelContract.swift */,
+				D0801AF52B8C434D00DE955A /* JobDetailsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D0801AF72B8C46B900DE955A /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				D07EC8252B8C504D003CA4B6 /* ApplyJob */,
+				D07EC8242B8C5045003CA4B6 /* JobDetails */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		D0801AF82B8C46C100DE955A /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				D07EC8272B8C5065003CA4B6 /* JobDetails */,
+				D07EC8262B8C505B003CA4B6 /* ApplyJob */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -433,6 +806,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D04075E72B85DAC300C0EC1F /* Build configuration list for PBXNativeTarget "SeekPlus" */;
 			buildPhases = (
+				D04076512B8B0B4900C0EC1F /* SwiftLint */,
 				D04075BF2B85DAC200C0EC1F /* Sources */,
 				D04075C02B85DAC200C0EC1F /* Frameworks */,
 				D04075C12B85DAC200C0EC1F /* Resources */,
@@ -442,6 +816,14 @@
 			dependencies = (
 			);
 			name = SeekPlus;
+			packageProductDependencies = (
+				D04076482B8ADED600C0EC1F /* Swinject */,
+				D040764A2B8ADED600C0EC1F /* Swinject-Dynamic */,
+				D04076552B8B37BB00C0EC1F /* Apollo */,
+				D04076612B8B5E2F00C0EC1F /* SeekPlusAPI */,
+				D04076832B8BBEBE00C0EC1F /* SwinjectAutoregistration */,
+				D04076852B8BBEBE00C0EC1F /* SwinjectAutoregistration-Dynamic */,
+			);
 			productName = SeekPlus;
 			productReference = D04075C32B85DAC200C0EC1F /* SeekPlus.app */;
 			productType = "com.apple.product-type.application";
@@ -514,6 +896,12 @@
 				Base,
 			);
 			mainGroup = D04075BA2B85DAC200C0EC1F;
+			packageReferences = (
+				D04076472B8ADED600C0EC1F /* XCRemoteSwiftPackageReference "Swinject" */,
+				D04076542B8B37BB00C0EC1F /* XCRemoteSwiftPackageReference "apollo-ios" */,
+				D04076602B8B5E2F00C0EC1F /* XCLocalSwiftPackageReference "SeekPlusAPI" */,
+				D04076822B8BBEBD00C0EC1F /* XCRemoteSwiftPackageReference "SwinjectAutoregistration" */,
+			);
 			productRefGroup = D04075C42B85DAC200C0EC1F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -531,6 +919,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D04075CE2B85DAC300C0EC1F /* Preview Assets.xcassets in Resources */,
+				D0801ADD2B8C18B100DE955A /* mutations.graphql in Resources */,
 				D04075CB2B85DAC300C0EC1F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -551,29 +940,97 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		D04076512B8B0B4900C0EC1F /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\nif [[ \"$(uname -m)\" == arm64 ]]; then\n    export PATH=\"/opt/homebrew/bin:$PATH\"\nfi\n\nif which swiftlint > /dev/null; then\n  swiftlint --fix && swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D04075BF2B85DAC200C0EC1F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0801AD02B8C16C900DE955A /* LoginViewModel.swift in Sources */,
 				D04076142B86F44400C0EC1F /* AppliedJobsView.swift in Sources */,
+				D0801AED2B8C3F7900DE955A /* ApplyJobServiceContract.swift in Sources */,
+				D040767A2B8B9EFA00C0EC1F /* HomeAssembly.swift in Sources */,
+				D04076702B8B977D00C0EC1F /* HomeViewModel.swift in Sources */,
+				D04076812B8BBCB900C0EC1F /* HomeInteractor.swift in Sources */,
+				D04076882B8BC51700C0EC1F /* AppDelegate.swift in Sources */,
 				D04076252B873D4000C0EC1F /* DefaultTextFieldStyle.swift in Sources */,
 				D04076192B8703AC00C0EC1F /* TextAttributes.swift in Sources */,
+				D04076652B8B5F0C00C0EC1F /* Network.swift in Sources */,
+				D0801AE82B8C3E9700DE955A /* ApplyJobInteractorContract.swift in Sources */,
+				D04076322B87889B00C0EC1F /* JobCardContent.swift in Sources */,
+				D0801AEF2B8C400700DE955A /* ApplyJobService.swift in Sources */,
+				D040766C2B8B742800C0EC1F /* TokenInterceptor.swift in Sources */,
+				D04076932B8C03F100C0EC1F /* AppliedJobsViewModelContract.swift in Sources */,
 				D04076162B86F46500C0EC1F /* ProfileView.swift in Sources */,
+				D040768F2B8BFBFB00C0EC1F /* TextFieldAttributes.swift in Sources */,
 				D040761B2B8707D100C0EC1F /* ConfigurableTextStyle.swift in Sources */,
+				D0801AFA2B8C46D500DE955A /* JobDetailsInteractorContract.swift in Sources */,
 				D040760C2B86E09300C0EC1F /* ConfigurableImageStyle.swift in Sources */,
 				D04075C92B85DAC200C0EC1F /* ContentView.swift in Sources */,
+				D040767F2B8BA58700C0EC1F /* ActiveJobListApiModel.swift in Sources */,
+				D040763E2B87C2A500C0EC1F /* JobDetailsView.swift in Sources */,
+				D0801AD42B8C172300DE955A /* LoginInteractorContract.swift in Sources */,
+				D0801AFC2B8C473100DE955A /* JobDetailsServiceContract.swift in Sources */,
 				D040761D2B870C3B00C0EC1F /* TabBarItem.swift in Sources */,
+				D04076432B89A63100C0EC1F /* HomeViewModelContract.swift in Sources */,
+				D04076372B87AFFA00C0EC1F /* BackgroundAttributes.swift in Sources */,
 				D04076272B8764A100C0EC1F /* LoginField.swift in Sources */,
+				D04076752B8B9D9000C0EC1F /* JobApiModel.swift in Sources */,
+				D0801B002B8C484E00DE955A /* JobDetailsInteractor.swift in Sources */,
+				D0801AE62B8C3E8800DE955A /* ApplyJobInteractor.swift in Sources */,
 				D04076082B86DE2900C0EC1F /* HomeView.swift in Sources */,
+				D040766E2B8B74E900C0EC1F /* NetworkInterceptorProvider.swift in Sources */,
+				D0801AD92B8C17F100DE955A /* LoginInteractor.swift in Sources */,
+				D04076952B8C044000C0EC1F /* AppliedJobsViewModel.swift in Sources */,
+				D0801AFE2B8C475700DE955A /* JobDetailsService.swift in Sources */,
+				D0801AD22B8C16F000DE955A /* LoginViewModelContract.swift in Sources */,
+				D04076772B8B9E6A00C0EC1F /* HomeServiceContract.swift in Sources */,
 				D04076122B86E58400C0EC1F /* AppColor.swift in Sources */,
+				D0801AE42B8C3D4500DE955A /* AuthKeys.swift in Sources */,
+				D040766A2B8B73D600C0EC1F /* KeychainHelper.swift in Sources */,
+				D0801AEB2B8C3EDB00DE955A /* ApplyJobApiModel.swift in Sources */,
+				D0801AE22B8C232C00DE955A /* LoginAssembly.swift in Sources */,
+				D0801AE02B8C193800DE955A /* AuthApiModel.swift in Sources */,
+				D0801ADB2B8C184000DE955A /* LoginService.swift in Sources */,
 				D040760F2B86E1C900C0EC1F /* ImageAttributes.swift in Sources */,
+				D07EC8232B8C4DED003CA4B6 /* JobDetailsAssembly.swift in Sources */,
+				D0801AD72B8C17B000DE955A /* LoginServiceContract.swift in Sources */,
+				D0801AF42B8C42F800DE955A /* JobDetailsViewModelContract.swift in Sources */,
 				D04076302B87818F00C0EC1F /* JobCardView.swift in Sources */,
+				D0801AF62B8C434D00DE955A /* JobDetailsViewModel.swift in Sources */,
+				D040767C2B8BA3A500C0EC1F /* HomeService.swift in Sources */,
 				D040761F2B8713DB00C0EC1F /* LoginView.swift in Sources */,
+				D040763B2B87B93800C0EC1F /* ImageSize.swift in Sources */,
+				D04076982B8C06F400C0EC1F /* AppliedJobsAssembly.swift in Sources */,
+				D04076352B87AC2A00C0EC1F /* ConfigurableBackgroundView.swift in Sources */,
+				D04076392B87B09100C0EC1F /* CornerRadius.swift in Sources */,
 				D04076222B87202000C0EC1F /* Margin.swift in Sources */,
 				D040762C2B87689100C0EC1F /* ButtonAttributes.swift in Sources */,
+				D04076722B8B99BD00C0EC1F /* HomeInteractorContract.swift in Sources */,
 				D04076052B86DDDB00C0EC1F /* TabBarView.swift in Sources */,
 				D04075C72B85DAC200C0EC1F /* SeekPlusApp.swift in Sources */,
+				D04076402B87C53300C0EC1F /* JobDetailsContent.swift in Sources */,
 				D040762A2B87683D00C0EC1F /* ConfigurableButtonStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -648,7 +1105,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -711,7 +1168,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -739,7 +1196,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SeekPlus/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SeekPlus;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -767,7 +1226,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SeekPlus/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SeekPlus;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -898,6 +1359,72 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		D04076602B8B5E2F00C0EC1F /* XCLocalSwiftPackageReference "SeekPlusAPI" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = SeekPlusAPI;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D04076472B8ADED600C0EC1F /* XCRemoteSwiftPackageReference "Swinject" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Swinject/Swinject.git";
+			requirement = {
+				kind = exactVersion;
+				version = 2.8.4;
+			};
+		};
+		D04076542B8B37BB00C0EC1F /* XCRemoteSwiftPackageReference "apollo-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apollographql/apollo-ios";
+			requirement = {
+				kind = exactVersion;
+				version = 1.9.0;
+			};
+		};
+		D04076822B8BBEBD00C0EC1F /* XCRemoteSwiftPackageReference "SwinjectAutoregistration" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Swinject/SwinjectAutoregistration.git";
+			requirement = {
+				kind = exactVersion;
+				version = 2.8.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D04076482B8ADED600C0EC1F /* Swinject */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D04076472B8ADED600C0EC1F /* XCRemoteSwiftPackageReference "Swinject" */;
+			productName = Swinject;
+		};
+		D040764A2B8ADED600C0EC1F /* Swinject-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D04076472B8ADED600C0EC1F /* XCRemoteSwiftPackageReference "Swinject" */;
+			productName = "Swinject-Dynamic";
+		};
+		D04076552B8B37BB00C0EC1F /* Apollo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D04076542B8B37BB00C0EC1F /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = Apollo;
+		};
+		D04076612B8B5E2F00C0EC1F /* SeekPlusAPI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SeekPlusAPI;
+		};
+		D04076832B8BBEBE00C0EC1F /* SwinjectAutoregistration */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D04076822B8BBEBD00C0EC1F /* XCRemoteSwiftPackageReference "SwinjectAutoregistration" */;
+			productName = SwinjectAutoregistration;
+		};
+		D04076852B8BBEBE00C0EC1F /* SwinjectAutoregistration-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D04076822B8BBEBD00C0EC1F /* XCRemoteSwiftPackageReference "SwinjectAutoregistration" */;
+			productName = "SwinjectAutoregistration-Dynamic";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D04075BB2B85DAC200C0EC1F /* Project object */;
 }

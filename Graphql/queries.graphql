@@ -1,0 +1,49 @@
+## Queries
+
+query ActiveJobList($limit: Int, $page: Int) {
+  active(limit: $limit, page: $page) {
+    page
+    size
+    hasNext
+    total
+    jobs {
+      ...JobModel
+    }
+  }
+}
+
+query AllJobList($limit: Int, $page: Int) {
+  jobs(limit: $limit, page: $page) {
+    page
+    size
+    hasNext
+    total
+    jobs {
+      ...JobModel
+    }
+  }
+}
+
+query JobDetails($jobId: String!) {
+  job(id: $jobId) {
+    ...JobModel
+  }
+}
+
+## fragments
+fragment JobModel on Job {
+  _id
+  positionTitle
+  description
+  salaryRange {
+   ...SalaryRangeModel
+  }
+  location
+  industry
+  haveIApplied
+}
+
+fragment SalaryRangeModel on SalaryRange {
+  min
+  max
+}

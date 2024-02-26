@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  SeekPlus
 //
-//  Created by Shubh on 21/02/2024.
+//  Created by Shubham
 //
 
 import SwiftUI
@@ -10,7 +10,8 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            LoginView()
+            LoginView(loginViewModel:
+                        AppDelegate.baseAssebler.resolver.resolve((any LoginViewModelContract).self)!)
 //            TabBarView()
         }
     }

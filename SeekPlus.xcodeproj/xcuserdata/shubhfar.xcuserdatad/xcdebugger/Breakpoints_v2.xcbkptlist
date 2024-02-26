@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "DA98FDCC-21F5-4CDB-AAFF-69DFD79DBC2F"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A6E55331-C7B1-4757-BF96-4E710644AE3A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SeekPlus/Features/Login/UI/ViewModel/LoginViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "login(_:_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A6E55331-C7B1-4757-BF96-4E710644AE3A - dac145f4c293fe05"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SeekPlus.LoginViewModel.login(Swift.String, Swift.String) -&gt; ()"
+                  moduleName = "SeekPlus"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shubhfar/Documents/Projects/SeekAsignment/SeekPlus/SeekPlus/Features/Login/UI/ViewModel/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "304">
+               </Location>
+               <Location
+                  uuid = "A6E55331-C7B1-4757-BF96-4E710644AE3A - ab84a0dec1b44e54"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (SeekPlus.AuthApiModel) -&gt; () in SeekPlus.LoginViewModel.login(Swift.String, Swift.String) -&gt; ()"
+                  moduleName = "SeekPlus"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shubhfar/Documents/Projects/SeekAsignment/SeekPlus/SeekPlus/Features/Login/UI/ViewModel/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "520">
+               </Location>
+               <Location
+                  uuid = "A6E55331-C7B1-4757-BF96-4E710644AE3A - ab84a0dec1b44e54"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (SeekPlus.AuthApiModel) -&gt; () in SeekPlus.LoginViewModel.login(Swift.String, Swift.String) -&gt; ()"
+                  moduleName = "SeekPlus"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shubhfar/Documents/Projects/SeekAsignment/SeekPlus/SeekPlus/Features/Login/UI/ViewModel/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "552">
+               </Location>
+               <Location
+                  uuid = "A6E55331-C7B1-4757-BF96-4E710644AE3A - ab84a0dec1b44e16"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (SeekPlus.AuthApiModel) -&gt; () in SeekPlus.LoginViewModel.login(Swift.String, Swift.String) -&gt; ()"
+                  moduleName = "SeekPlus"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shubhfar/Documents/Projects/SeekAsignment/SeekPlus/SeekPlus/Features/Login/UI/ViewModel/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "528">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D2FC943A-F469-4BD8-9924-F337055B6139"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SeekPlus/Features/JobDetails/UI/ViewModel/JobDetailsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "applyForJob(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4D21619D-5EBE-4532-8894-763FE9980E6D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SeekPlus/Features/JobDetails/Data/ApplyJob/ApplyJobService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "applyForJob(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "13763051-807A-4DE3-A164-F5C6D85E09DC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SeekPlus/Features/JobDetails/UI/View/JobDetailsView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "80DC24E5-6B40-463E-B121-D449C39ADF27"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SeekPlus/NetworkService/TokenInterceptor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "TokenInterceptor"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "80DC24E5-6B40-463E-B121-D449C39ADF27 - 81a7bcbcd2155a3b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SeekPlus.TokenInterceptor.deinit"
+                  moduleName = "SeekPlus"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shubhfar/Documents/Projects/SeekAsignment/SeekPlus/SeekPlus/NetworkService/TokenInterceptor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "80DC24E5-6B40-463E-B121-D449C39ADF27 - a49162de2be55799"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SeekPlus.TokenInterceptor.__deallocating_deinit"
+                  moduleName = "SeekPlus"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shubhfar/Documents/Projects/SeekAsignment/SeekPlus/SeekPlus/NetworkService/TokenInterceptor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8A6D39E9-C77F-4E5E-98FE-E72679CCB133"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SeekPlus/Features/AppliedJobs/UI/ViewModel/AppliedJobsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "loadData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8A6D39E9-C77F-4E5E-98FE-E72679CCB133 - 8e3540bc3c3eed03"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Array&lt;SeekPlus.JobApiModel&gt;) -&gt; () in SeekPlus.AppliedJobsViewModel.loadData() -&gt; ()"
+                  moduleName = "SeekPlus"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shubhfar/Documents/Projects/SeekAsignment/SeekPlus/SeekPlus/Features/AppliedJobs/UI/ViewModel/AppliedJobsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "8A6D39E9-C77F-4E5E-98FE-E72679CCB133 - d41b3115281577aa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (SeekPlus.JobApiModel) -&gt; Swift.Bool in closure #2 (Swift.Array&lt;SeekPlus.JobApiModel&gt;) -&gt; () in SeekPlus.AppliedJobsViewModel.loadData() -&gt; ()"
+                  moduleName = "SeekPlus"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shubhfar/Documents/Projects/SeekAsignment/SeekPlus/SeekPlus/Features/AppliedJobs/UI/ViewModel/AppliedJobsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C8ACB155-EDAB-491B-AC34-9A9C55125CCA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SeekPlus/Features/JobDetails/UI/ViewModel/JobDetailsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "loadData(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "880677CA-DAA8-4A7F-B497-72BD2E40A961"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SeekPlus/Features/JobDetails/UI/View/JobDetailsView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B6269FA8-67C0-4108-AC41-65A404FA3C25"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SeekPlus/Features/JobDetails/UI/ViewModel/JobDetailsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "loadData(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B6269FA8-67C0-4108-AC41-65A404FA3C25 - 928f92400b8ba484"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SeekPlus.JobDetailsViewModel.loadData(Swift.String) -&gt; ()"
+                  moduleName = "SeekPlus"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shubhfar/Documents/Projects/SeekAsignment/SeekPlus/SeekPlus/Features/JobDetails/UI/ViewModel/JobDetailsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "272">
+               </Location>
+               <Location
+                  uuid = "B6269FA8-67C0-4108-AC41-65A404FA3C25 - 256115b44a7fa1d0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (SeekPlus.JobApiModel) -&gt; () in SeekPlus.JobDetailsViewModel.loadData(Swift.String) -&gt; ()"
+                  moduleName = "SeekPlus"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shubhfar/Documents/Projects/SeekAsignment/SeekPlus/SeekPlus/Features/JobDetails/UI/ViewModel/JobDetailsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "108">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "63E7D24F-5084-46AB-8B75-A322D62E2C48"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SeekPlus/Features/AppliedJobs/UI/View/AppliedJobsView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "86"
+            endingLineNumber = "86"
+            landmarkName = "appliedJobCardsView"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "63E7D24F-5084-46AB-8B75-A322D62E2C48 - 18c420ba7ba7e2b3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 (Swift.Array&lt;SeekPlus.JobApiModel&gt;, Swift.Array&lt;SeekPlus.JobApiModel&gt;) -&gt; () in SeekPlus.AppliedJobsView.appliedJobCardsView.getter : some"
+                  moduleName = "SeekPlus"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shubhfar/Documents/Projects/SeekAsignment/SeekPlus/SeekPlus/Features/AppliedJobs/UI/View/AppliedJobsView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "86"
+                  endingLineNumber = "86"
+                  offsetFromSymbolStart = "196">
+               </Location>
+               <Location
+                  uuid = "63E7D24F-5084-46AB-8B75-A322D62E2C48 - 18c420ba7ba7e2b3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 (Swift.Array&lt;SeekPlus.JobApiModel&gt;, Swift.Array&lt;SeekPlus.JobApiModel&gt;) -&gt; () in SeekPlus.AppliedJobsView.appliedJobCardsView.getter : some"
+                  moduleName = "SeekPlus"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shubhfar/Documents/Projects/SeekAsignment/SeekPlus/SeekPlus/Features/AppliedJobs/UI/View/AppliedJobsView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "86"
+                  endingLineNumber = "86"
+                  offsetFromSymbolStart = "288">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "143B065D-2898-40C2-B769-580BE961DD6A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SeekPlus/Features/AppliedJobs/UI/View/AppliedJobsView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
+            landmarkName = "appliedJobCardsView"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "143B065D-2898-40C2-B769-580BE961DD6A - 18c420ba7ba7e2fd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 (Swift.Array&lt;SeekPlus.JobApiModel&gt;, Swift.Array&lt;SeekPlus.JobApiModel&gt;) -&gt; () in SeekPlus.AppliedJobsView.appliedJobCardsView.getter : some"
+                  moduleName = "SeekPlus"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shubhfar/Documents/Projects/SeekAsignment/SeekPlus/SeekPlus/Features/AppliedJobs/UI/View/AppliedJobsView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "88"
+                  endingLineNumber = "88"
+                  offsetFromSymbolStart = "284">
+               </Location>
+               <Location
+                  uuid = "143B065D-2898-40C2-B769-580BE961DD6A - 18c420ba7ba7e2fd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 (Swift.Array&lt;SeekPlus.JobApiModel&gt;, Swift.Array&lt;SeekPlus.JobApiModel&gt;) -&gt; () in SeekPlus.AppliedJobsView.appliedJobCardsView.getter : some"
+                  moduleName = "SeekPlus"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shubhfar/Documents/Projects/SeekAsignment/SeekPlus/SeekPlus/Features/AppliedJobs/UI/View/AppliedJobsView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "88"
+                  endingLineNumber = "88"
+                  offsetFromSymbolStart = "388">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -2,7 +2,7 @@
 //  ConfigurableImageView.swift
 //  SeekPlus
 //
-//  Created by Shubh on 22/02/2024.
+//  Created by Shubham
 //
 
 import SwiftUI
@@ -25,7 +25,8 @@ extension Image {
 
 #Preview {
     Image(systemName: "house")
-        .configurableImageStyle(ImageAttributes(size: CGSize(width: 48, height: 48),
-                                    animate: true))
+        .configurableImageStyle(ImageAttributes(size: CGSize(width: ImageSize.xxLarge.value,
+                                                             height: ImageSize.xxLarge.value),
+                                                animate: true))
         .padding()
 }

@@ -2,7 +2,7 @@
 //  AppColor.swift
 //  SeekPlus
 //
-//  Created by Shubh on 22/02/2024.
+//  Created by Shubham
 //
 
 import SwiftUI
@@ -26,7 +26,6 @@ extension AppColor {
         Color(hex: self.rawValue)
     }
 }
-
 
 extension Color {
     /// Initializes the Color from  the hex value

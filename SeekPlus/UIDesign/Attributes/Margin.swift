@@ -2,7 +2,7 @@
 //  Margin.swift
 //  SeekPlus
 //
-//  Created by Shubh on 22/02/2024.
+//  Created by Shubham
 //
 
 import Foundation
@@ -15,7 +15,7 @@ enum Margin: CGFloat {
     case xLarge = 24
     case xxLarge = 32
     case xxxLarge = 48
-    
+
     var value: CGFloat {
         self.rawValue
     }

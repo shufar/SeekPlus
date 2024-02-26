@@ -2,7 +2,7 @@
 //  TabBarItem.swift
 //  SeekPlus
 //
-//  Created by Shubh on 22/02/2024.
+//  Created by Shubham
 //
 
 import SwiftUI
@@ -11,7 +11,7 @@ enum TabBarItem: String {
     case home = "Home"
     case applied = "Applied"
     case profile = "Profile"
-    
+
     var image: some View {
         switch self {
         case .home:
@@ -25,11 +25,11 @@ enum TabBarItem: String {
                 .configurableImageStyle()
         }
     }
-    
+
     var title: some View {
         Text(self.rawValue)
     }
-    
+
     var tag: Int {
         switch self {
         case .home: 1

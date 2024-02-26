@@ -2,7 +2,7 @@
 //  TextAttributes.swift
 //  SeekPlus
 //
-//  Created by Shubh on 22/02/2024.
+//  Created by Shubham
 //
 
 import SwiftUI
@@ -12,7 +12,7 @@ struct TextAttributes {
     let weight: Font.Weight
     let color: Color
     let lineLimit: Int?
-    
+
     init(style: Font = .title,
          weight: Font.Weight = .regular,
          color: Color = AppColor.textPrimary.color,
