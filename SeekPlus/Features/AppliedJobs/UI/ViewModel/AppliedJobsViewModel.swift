@@ -9,6 +9,8 @@ import Combine
 
 final class AppliedJobsViewModel: AppliedJobsViewModelContract {
     @Published var appliedJobs: [JobApiModel] = []
+    @Published var activityIndicator: ActivityIndicatorEvent = .hideIndicator
+    @Published var showPlaceholder: Bool = false
 
     private var disposeBag = Set<AnyCancellable>()
     private let homeInteractor: HomeInteractorContract
@@ -18,16 +20,30 @@ final class AppliedJobsViewModel: AppliedJobsViewModelContract {
     }
 
     func loadData() {
+        activityIndicator = .showIndicator
+        appliedJobs = []
+
         self.homeInteractor.getActiveJobList()
-            .sink { completion in
+            .sink { [weak self] completion in
+                self?.activityIndicator = .hideIndicator
+
                 switch completion {
                 case .finished:
                     break
                 case .failure(let error):
                     print(error)
                 }
-            } receiveValue: { jobList in
+            } receiveValue: { [weak self] jobList in
+                guard let self = self else { return }
+
                 self.appliedJobs = jobList.filter { $0.haveIApplied == true }
+                self.activityIndicator = .hideIndicator
+
+                if self.appliedJobs.isEmpty {
+                    self.showPlaceholder = true
+                } else {
+                    self.showPlaceholder = false
+                }
             }.store(in: &disposeBag)
     }
 }

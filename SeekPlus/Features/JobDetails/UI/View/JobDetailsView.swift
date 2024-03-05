@@ -26,6 +26,7 @@ struct JobDetailsView<ViewModel>: View where ViewModel: JobDetailsViewModel {
             .toolbar {
                 ToolbarItem(placement: .principal) { navigationHeaderView }
             }
+            .activityIndicator(jobDetailsViewModel.activityIndicator.value)
             .task {
                 jobDetailsViewModel.loadData(jobId)
             }
@@ -217,10 +218,10 @@ private extension JobDetailsView {
 //
 //    var body: some View {
 //        JobDetailsView(content)
-//        //            .padding()
+//                    .padding()
 //    }
 // }
-
+//
 // #Preview {
 //    JobDetail_Preview()
 // }

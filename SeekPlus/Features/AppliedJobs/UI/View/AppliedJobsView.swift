@@ -10,7 +10,6 @@ import SwiftUI
 
 struct AppliedJobsView<ViewModel>: View where ViewModel: AppliedJobsViewModel {
     @ObservedObject private var appliedJobsViewModel: ViewModel
-    @State private var showPlaceholderView: Bool = false
 
     private let assembler: Assembler = Assembler([JobDetailsAssembly()],
                                                  container: AppDelegate.baseContainer)
@@ -22,11 +21,15 @@ struct AppliedJobsView<ViewModel>: View where ViewModel: AppliedJobsViewModel {
     var body: some View {
         NavigationStack {
             navigationHeaderView
-            if showPlaceholderView {
+            if appliedJobsViewModel.showPlaceholder {
                 placeholderView
             } else {
                 appliedJobCardsView
             }
+        }
+        .activityIndicator(appliedJobsViewModel.activityIndicator.value)
+        .task {
+            self.appliedJobsViewModel.loadData()
         }
     }
 }
@@ -79,14 +82,6 @@ private extension AppliedJobsView {
                 }
             }
             .listStyle(.plain)
-        }.task {
-            self.appliedJobsViewModel.loadData()
-        }.onChange(of: appliedJobsViewModel.appliedJobs) { oldValue, newValue in
-            if oldValue.isEmpty, newValue.isEmpty {
-                showPlaceholderView = true
-            } else {
-                showPlaceholderView = false
-            }
         }
     }
 }

@@ -14,7 +14,8 @@ struct JobDetailsService: JobDetailsServiceContract {
         return Future { promise in
             Network.shared
                 .apollo
-                .fetch(query: JobDetailsQuery(jobId: id)) { result in
+                .fetch(query: JobDetailsQuery(jobId: id),
+                       cachePolicy: .fetchIgnoringCacheCompletely) { result in
                     switch result {
                     case .success(let graphQLResult):
                         // check the `data` property

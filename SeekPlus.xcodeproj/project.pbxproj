@@ -84,6 +84,8 @@
 		D0801AFC2B8C473100DE955A /* JobDetailsServiceContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0801AFB2B8C473100DE955A /* JobDetailsServiceContract.swift */; };
 		D0801AFE2B8C475700DE955A /* JobDetailsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0801AFD2B8C475700DE955A /* JobDetailsService.swift */; };
 		D0801B002B8C484E00DE955A /* JobDetailsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0801AFF2B8C484E00DE955A /* JobDetailsInteractor.swift */; };
+		D0C8B8A72B96F2F7009DF37A /* ActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C8B8A62B96F2F7009DF37A /* ActivityIndicatorView.swift */; };
+		D0C8B8AA2B97172E009DF37A /* ActivityIndicatorEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C8B8A92B97172E009DF37A /* ActivityIndicatorEvent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -180,6 +182,8 @@
 		D0801AFB2B8C473100DE955A /* JobDetailsServiceContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDetailsServiceContract.swift; sourceTree = "<group>"; };
 		D0801AFD2B8C475700DE955A /* JobDetailsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDetailsService.swift; sourceTree = "<group>"; };
 		D0801AFF2B8C484E00DE955A /* JobDetailsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDetailsInteractor.swift; sourceTree = "<group>"; };
+		D0C8B8A62B96F2F7009DF37A /* ActivityIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorView.swift; sourceTree = "<group>"; };
+		D0C8B8A92B97172E009DF37A /* ActivityIndicatorEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorEvent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -278,6 +282,7 @@
 		D04075F02B85F44200C0EC1F /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				D0C8B8A82B97171B009DF37A /* DataModel */,
 				D04075FF2B85F68500C0EC1F /* Login */,
 				D04075FD2B85F51800C0EC1F /* TabBar */,
 				D04075F12B85F45300C0EC1F /* Home */,
@@ -480,6 +485,7 @@
 		D040760A2B86E01500C0EC1F /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				D0C8B8A52B96F2D3009DF37A /* ActivityIndicatorView */,
 				D040762E2B87817B00C0EC1F /* JobCardView */,
 				D04076332B87ABEB00C0EC1F /* ConfigurableBackgroundView */,
 				D04076172B87039200C0EC1F /* ConfigurableTextStyle */,
@@ -799,6 +805,22 @@
 			path = Data;
 			sourceTree = "<group>";
 		};
+		D0C8B8A52B96F2D3009DF37A /* ActivityIndicatorView */ = {
+			isa = PBXGroup;
+			children = (
+				D0C8B8A62B96F2F7009DF37A /* ActivityIndicatorView.swift */,
+			);
+			path = ActivityIndicatorView;
+			sourceTree = "<group>";
+		};
+		D0C8B8A82B97171B009DF37A /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				D0C8B8A92B97172E009DF37A /* ActivityIndicatorEvent.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -986,6 +1008,7 @@
 				D040768F2B8BFBFB00C0EC1F /* TextFieldAttributes.swift in Sources */,
 				D040761B2B8707D100C0EC1F /* ConfigurableTextStyle.swift in Sources */,
 				D0801AFA2B8C46D500DE955A /* JobDetailsInteractorContract.swift in Sources */,
+				D0C8B8AA2B97172E009DF37A /* ActivityIndicatorEvent.swift in Sources */,
 				D040760C2B86E09300C0EC1F /* ConfigurableImageStyle.swift in Sources */,
 				D04075C92B85DAC200C0EC1F /* ContentView.swift in Sources */,
 				D040767F2B8BA58700C0EC1F /* ActiveJobListApiModel.swift in Sources */,
@@ -1006,6 +1029,7 @@
 				D0801AFE2B8C475700DE955A /* JobDetailsService.swift in Sources */,
 				D0801AD22B8C16F000DE955A /* LoginViewModelContract.swift in Sources */,
 				D04076772B8B9E6A00C0EC1F /* HomeServiceContract.swift in Sources */,
+				D0C8B8A72B96F2F7009DF37A /* ActivityIndicatorView.swift in Sources */,
 				D04076122B86E58400C0EC1F /* AppColor.swift in Sources */,
 				D0801AE42B8C3D4500DE955A /* AuthKeys.swift in Sources */,
 				D040766A2B8B73D600C0EC1F /* KeychainHelper.swift in Sources */,

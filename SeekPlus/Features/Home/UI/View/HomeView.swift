@@ -33,6 +33,10 @@ struct HomeView<ViewModel>: View where ViewModel: HomeViewModel {
             headerWithSearchBarView
             jobCardsView
         }
+        .activityIndicator(homeViewModel.activityIndicator.value)
+        .task {
+            self.homeViewModel.loadData()
+        }
     }
 }
 
@@ -89,10 +93,10 @@ private extension HomeView {
                 }
             }
             .listStyle(.plain)
-        }.task {
-            self.homeViewModel.loadData()
+            .refreshable {
+                self.homeViewModel.loadData()
+            }
         }
-
     }
 }
 

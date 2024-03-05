@@ -86,6 +86,7 @@ private extension LoginView {
                       text: $email)
             .focused($focusedField, equals: .email)
             .textContentType(.emailAddress)
+            .textInputAutocapitalization(.never)
             .textFieldStyle(DefaultTextFieldStyle(isEditing: focusedField == .email))
             .submitLabel(.next)
         }

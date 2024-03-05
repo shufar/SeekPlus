@@ -15,7 +15,8 @@ struct HomeService: HomeServiceContract {
             Network.shared
                 .apollo
                 .fetch(query: ActiveJobListQuery(limit: GraphQLNullable<Int>(integerLiteral: limit),
-                                                 page: GraphQLNullable<Int>(integerLiteral: page))) { result in
+                                                 page: GraphQLNullable<Int>(integerLiteral: page)),
+                       cachePolicy: .fetchIgnoringCacheCompletely) { result in
                     switch result {
                     case .success(let graphQLResult):
                         // check the `data` property
