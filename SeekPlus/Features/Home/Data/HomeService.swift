@@ -20,13 +20,13 @@ struct HomeService: HomeServiceContract {
                     switch result {
                     case .success(let graphQLResult):
                         // check the `data` property
-                        if let activeJobList = graphQLResult.data?.active?.jobs {
-                            var jobList: [JobApiModel] = []
-                            for job in activeJobList {
-                                jobList.append(JobApiModel(from: job?.fragments.jobModel))
-                            }
-
-                            return promise(.success(jobList))
+                        if let activeJobListResponse = graphQLResult.data?.active {
+//                            var jobList: [JobApiModel] = []
+//                            for job in activeJobList {
+//                                jobList.append(JobApiModel(from: job?.fragments.jobModel))
+//                            }
+                            let jobListResponse = ActiveJobListApiModel(from: activeJobListResponse)
+                            return promise(.success(jobListResponse))
                         }
 
                         if let errors = graphQLResult.errors {

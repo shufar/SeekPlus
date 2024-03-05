@@ -23,7 +23,7 @@ final class AppliedJobsViewModel: AppliedJobsViewModelContract {
         activityIndicator = .showIndicator
         appliedJobs = []
 
-        self.homeInteractor.getActiveJobList()
+        self.homeInteractor.getActiveJobList(20, 1)
             .sink { [weak self] completion in
                 self?.activityIndicator = .hideIndicator
 
@@ -33,10 +33,10 @@ final class AppliedJobsViewModel: AppliedJobsViewModelContract {
                 case .failure(let error):
                     print(error)
                 }
-            } receiveValue: { [weak self] jobList in
+            } receiveValue: { [weak self] jobListResponse in
                 guard let self = self else { return }
 
-                self.appliedJobs = jobList.filter { $0.haveIApplied == true }
+                self.appliedJobs = jobListResponse.jobs.filter { $0.haveIApplied == true }
                 self.activityIndicator = .hideIndicator
 
                 if self.appliedJobs.isEmpty {

@@ -33,6 +33,7 @@ struct HomeView<ViewModel>: View where ViewModel: HomeViewModel {
             headerWithSearchBarView
             jobCardsView
         }
+        .background(AppColor.backgroundSecondary.color)
         .activityIndicator(homeViewModel.activityIndicator.value)
         .task {
             self.homeViewModel.loadData()
@@ -90,12 +91,12 @@ private extension HomeView {
                                              bottom: Margin.half.value,
                                              trailing: Margin.large.value))
                         .listRowBackground(AppColor.backgroundSecondary.color)
+                        .onAppear(perform: {
+                            self.homeViewModel.loadMoreData(currentItem: job)
+                        })
                 }
             }
             .listStyle(.plain)
-            .refreshable {
-                self.homeViewModel.loadData()
-            }
         }
     }
 }

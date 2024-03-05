@@ -12,4 +12,5 @@ protocol HomeViewModelContract: ObservableObject {
     var activityIndicator: ActivityIndicatorEvent { get }
 
     func loadData()
+    func loadMoreData(currentItem job: JobApiModel)
 }

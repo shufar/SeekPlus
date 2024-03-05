@@ -27,6 +27,7 @@ struct AppliedJobsView<ViewModel>: View where ViewModel: AppliedJobsViewModel {
                 appliedJobCardsView
             }
         }
+        .background(AppColor.backgroundSecondary.color)
         .activityIndicator(appliedJobsViewModel.activityIndicator.value)
         .task {
             self.appliedJobsViewModel.loadData()

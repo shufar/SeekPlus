@@ -7,8 +7,8 @@
 
 import Combine
 
-typealias ActiveJobListPublisher = AnyPublisher<[JobApiModel], Error>
+typealias ActiveJobListPublisher = AnyPublisher<ActiveJobListApiModel, Error>
 
 protocol HomeInteractorContract {
-    func getActiveJobList() -> ActiveJobListPublisher
+    func getActiveJobList(_ limit: Int, _ page: Int) -> ActiveJobListPublisher
 }

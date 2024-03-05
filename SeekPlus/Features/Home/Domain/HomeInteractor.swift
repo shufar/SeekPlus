@@ -14,7 +14,7 @@ struct HomeInteractor: HomeInteractorContract {
         self.homeService = homeService
     }
 
-    func getActiveJobList() -> ActiveJobListPublisher {
-        self.homeService.getActiveJobList(20, 1)
+    func getActiveJobList(_ limit: Int, _ page: Int) -> ActiveJobListPublisher {
+        self.homeService.getActiveJobList(limit, page)
     }
 }
