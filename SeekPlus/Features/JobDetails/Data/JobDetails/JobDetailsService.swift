@@ -10,12 +10,16 @@ import Combine
 import SeekPlusAPI
 
 struct JobDetailsService: JobDetailsServiceContract {
+    private let networkProvider: NetworkProviderContract
+
+    init(networkProvider: NetworkProviderContract) {
+        self.networkProvider = networkProvider
+    }
+
     func getJobDetails(_ id: String) -> JobDetailsPublisher {
         return Future { promise in
-            Network.shared
-                .apollo
-                .fetch(query: JobDetailsQuery(jobId: id),
-                       cachePolicy: .fetchIgnoringCacheCompletely) { result in
+            _ = networkProvider
+                .fetch(query: JobDetailsQuery(jobId: id)) { result in
                     switch result {
                     case .success(let graphQLResult):
                         // check the `data` property
@@ -26,7 +30,7 @@ struct JobDetailsService: JobDetailsServiceContract {
 
                         if let errors = graphQLResult.errors {
                             print(errors)
-//                            return promise(.failure(errors as! Error))
+                            //                            return promise(.failure(errors as! Error))
                         }
 
                     case .failure(let error):

@@ -1,0 +1,41 @@
+{
+  "configurations" : [
+    {
+      "id" : "BA2A0CEF-27AE-498C-A40C-8D0267111474",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:SeekPlus.xcodeproj",
+      "identifier" : "D04075C22B85DAC200C0EC1F",
+      "name" : "SeekPlus"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:SeekPlus.xcodeproj",
+        "identifier" : "D04075D22B85DAC300C0EC1F",
+        "name" : "SeekPlusTests"
+      }
+    },
+    {
+      "enabled" : false,
+      "parallelizable" : true,
+      "skippedTests" : [
+        "SeekPlusUITestsLaunchTests"
+      ],
+      "target" : {
+        "containerPath" : "container:SeekPlus.xcodeproj",
+        "identifier" : "D04075DC2B85DAC300C0EC1F",
+        "name" : "SeekPlusUITests"
+      }
+    }
+  ],
+  "version" : 1
+}

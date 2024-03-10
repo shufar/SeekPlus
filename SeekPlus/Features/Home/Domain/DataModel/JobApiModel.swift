@@ -18,6 +18,22 @@ struct JobApiModel: Identifiable, Equatable {
     let industry: Int
     let haveIApplied: Bool
 
+    init(id: String,
+         positionTitle: String,
+         description: String,
+         salaryRange: SalaryRange,
+         location: Int,
+         industry: Int,
+         haveIApplied: Bool) {
+        self.id = id
+        self.positionTitle = positionTitle
+        self.description = description
+        self.salaryRange = salaryRange
+        self.location = location
+        self.industry = industry
+        self.haveIApplied = haveIApplied
+    }
+
     init(from graphQLObject: JobModel?) {
         self.id = graphQLObject?._id ?? "DefaultJobId"
         self.positionTitle = graphQLObject?.positionTitle ?? "DefaultPosition"
@@ -33,6 +49,11 @@ struct JobApiModel: Identifiable, Equatable {
 struct SalaryRange: Hashable {
     let min: Int
     let max: Int
+
+    init(min: Int, max: Int) {
+        self.min = min
+        self.max = max
+    }
 
     init(from graphQLObject: SalaryRangeModel?) {
         self.min = graphQLObject?.min ?? 0

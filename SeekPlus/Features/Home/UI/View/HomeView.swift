@@ -8,8 +8,8 @@
 import Swinject
 import SwiftUI
 
-struct HomeView<ViewModel>: View where ViewModel: HomeViewModel {
-    @ObservedObject private var homeViewModel: ViewModel
+struct HomeView: View {
+    @ObservedObject private var homeViewModel: HomeViewModel
     @State private var searchText = ""
     @State private var isEditingInSearchBar: Bool = false
 
@@ -24,8 +24,8 @@ struct HomeView<ViewModel>: View where ViewModel: HomeViewModel {
         }
     }
 
-    init(homeViewModel: any HomeViewModelContract) {
-        self.homeViewModel = homeViewModel as! ViewModel // swiftlint:disable:this force_cast
+    init(homeViewModel: HomeViewModelContract) {
+        self.homeViewModel = homeViewModel as! HomeViewModel // swiftlint:disable:this force_cast
     }
 
     var body: some View {

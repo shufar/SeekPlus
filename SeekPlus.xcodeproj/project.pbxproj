@@ -43,7 +43,7 @@
 		D040764B2B8ADED600C0EC1F /* Swinject-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = D040764A2B8ADED600C0EC1F /* Swinject-Dynamic */; };
 		D04076562B8B37BB00C0EC1F /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = D04076552B8B37BB00C0EC1F /* Apollo */; };
 		D04076622B8B5E2F00C0EC1F /* SeekPlusAPI in Frameworks */ = {isa = PBXBuildFile; productRef = D04076612B8B5E2F00C0EC1F /* SeekPlusAPI */; };
-		D04076652B8B5F0C00C0EC1F /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04076642B8B5F0C00C0EC1F /* Network.swift */; };
+		D04076652B8B5F0C00C0EC1F /* NetworkProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04076642B8B5F0C00C0EC1F /* NetworkProvider.swift */; };
 		D040766A2B8B73D600C0EC1F /* KeychainHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04076692B8B73D600C0EC1F /* KeychainHelper.swift */; };
 		D040766C2B8B742800C0EC1F /* TokenInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D040766B2B8B742800C0EC1F /* TokenInterceptor.swift */; };
 		D040766E2B8B74E900C0EC1F /* NetworkInterceptorProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D040766D2B8B74E900C0EC1F /* NetworkInterceptorProvider.swift */; };
@@ -84,6 +84,33 @@
 		D0801AFC2B8C473100DE955A /* JobDetailsServiceContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0801AFB2B8C473100DE955A /* JobDetailsServiceContract.swift */; };
 		D0801AFE2B8C475700DE955A /* JobDetailsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0801AFD2B8C475700DE955A /* JobDetailsService.swift */; };
 		D0801B002B8C484E00DE955A /* JobDetailsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0801AFF2B8C484E00DE955A /* JobDetailsInteractor.swift */; };
+		D0BA585A2B9B7B8700DD2415 /* Cuckoo in Frameworks */ = {isa = PBXBuildFile; productRef = D0BA58592B9B7B8700DD2415 /* Cuckoo */; };
+		D0BA586B2B9C995000DD2415 /* HomeServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BA586A2B9C995000DD2415 /* HomeServiceTest.swift */; };
+		D0BA586D2B9E053300DD2415 /* SeekPlusAPITestMocks in Frameworks */ = {isa = PBXBuildFile; productRef = D0BA586C2B9E053300DD2415 /* SeekPlusAPITestMocks */; };
+		D0BA586F2B9E2C2100DD2415 /* NetworkProviderContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BA586E2B9E2C2100DD2415 /* NetworkProviderContract.swift */; };
+		D0BA58722B9E63BC00DD2415 /* NetworkAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BA58712B9E63BC00DD2415 /* NetworkAssembly.swift */; };
+		D0BA58752B9E6BB400DD2415 /* MockGraphQLActiveJobsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BA58742B9E6BB400DD2415 /* MockGraphQLActiveJobsData.swift */; };
+		D0BA58792B9EA99B00DD2415 /* XCTestCase+AwaitPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BA58782B9EA99B00DD2415 /* XCTestCase+AwaitPublisher.swift */; };
+		D0BA587B2B9EBAF100DD2415 /* GeneratedMocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BA587A2B9EBAF100DD2415 /* GeneratedMocks.swift */; };
+		D0BA587D2B9ECFC100DD2415 /* HomeInteractorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BA587C2B9ECFC000DD2415 /* HomeInteractorTest.swift */; };
+		D0BA587F2B9ED72D00DD2415 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BA587E2B9ED72D00DD2415 /* MockData.swift */; };
+		D0BA58812B9ED82600DD2415 /* MockError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BA58802B9ED82600DD2415 /* MockError.swift */; };
+		D0BA58832B9ED89A00DD2415 /* MockActiveJobsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BA58822B9ED89A00DD2415 /* MockActiveJobsData.swift */; };
+		D0BA58862B9EDD9700DD2415 /* HomeViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BA58852B9EDD9700DD2415 /* HomeViewModelTest.swift */; };
+		D0BA588B2B9F04CE00DD2415 /* AppliedJobsViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BA588A2B9F04CE00DD2415 /* AppliedJobsViewModelTest.swift */; };
+		D0BA58922B9F0A9300DD2415 /* JobDetailsServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BA58912B9F0A9300DD2415 /* JobDetailsServiceTest.swift */; };
+		D0BA58942B9F0B9700DD2415 /* MockGraphQLJobDetailsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BA58932B9F0B9700DD2415 /* MockGraphQLJobDetailsData.swift */; };
+		D0BA58962B9F125900DD2415 /* JobDetailsInteractorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BA58952B9F125900DD2415 /* JobDetailsInteractorTest.swift */; };
+		D0BA58982B9F160600DD2415 /* JobDetailsViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BA58972B9F160600DD2415 /* JobDetailsViewModelTest.swift */; };
+		D0BA589A2B9F16C800DD2415 /* ApplyJobServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BA58992B9F16C800DD2415 /* ApplyJobServiceTest.swift */; };
+		D0BA589C2B9F317900DD2415 /* MockGraphQLApplyJobData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BA589B2B9F317900DD2415 /* MockGraphQLApplyJobData.swift */; };
+		D0BA589E2B9F332600DD2415 /* ApplyJobInteractorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BA589D2B9F332600DD2415 /* ApplyJobInteractorTest.swift */; };
+		D0BA58A02B9F351D00DD2415 /* MockApplyJobData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BA589F2B9F351D00DD2415 /* MockApplyJobData.swift */; };
+		D0BA58A72B9F519B00DD2415 /* LoginServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BA58A62B9F519B00DD2415 /* LoginServiceTest.swift */; };
+		D0BA58A92B9F60C300DD2415 /* MockGraphQLLoginData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BA58A82B9F60C300DD2415 /* MockGraphQLLoginData.swift */; };
+		D0BA58AB2B9F7AB400DD2415 /* LoginInteractorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BA58AA2B9F7AB400DD2415 /* LoginInteractorTest.swift */; };
+		D0BA58AD2B9F7C4300DD2415 /* MockLoginData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BA58AC2B9F7C4300DD2415 /* MockLoginData.swift */; };
+		D0BA58B02B9F84D800DD2415 /* LoginViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BA58AF2B9F84D800DD2415 /* LoginViewModelTest.swift */; };
 		D0C8B8A72B96F2F7009DF37A /* ActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C8B8A62B96F2F7009DF37A /* ActivityIndicatorView.swift */; };
 		D0C8B8AA2B97172E009DF37A /* ActivityIndicatorEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C8B8A92B97172E009DF37A /* ActivityIndicatorEvent.swift */; };
 /* End PBXBuildFile section */
@@ -143,7 +170,7 @@
 		D04076422B89A63100C0EC1F /* HomeViewModelContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModelContract.swift; sourceTree = "<group>"; };
 		D040765D2B8B5CE300C0EC1F /* schema.graphqls */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = schema.graphqls; sourceTree = "<group>"; };
 		D040765F2B8B5D2400C0EC1F /* queries.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = queries.graphql; sourceTree = "<group>"; };
-		D04076642B8B5F0C00C0EC1F /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		D04076642B8B5F0C00C0EC1F /* NetworkProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkProvider.swift; sourceTree = "<group>"; };
 		D04076692B8B73D600C0EC1F /* KeychainHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainHelper.swift; sourceTree = "<group>"; };
 		D040766B2B8B742800C0EC1F /* TokenInterceptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenInterceptor.swift; sourceTree = "<group>"; };
 		D040766D2B8B74E900C0EC1F /* NetworkInterceptorProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkInterceptorProvider.swift; sourceTree = "<group>"; };
@@ -182,6 +209,32 @@
 		D0801AFB2B8C473100DE955A /* JobDetailsServiceContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDetailsServiceContract.swift; sourceTree = "<group>"; };
 		D0801AFD2B8C475700DE955A /* JobDetailsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDetailsService.swift; sourceTree = "<group>"; };
 		D0801AFF2B8C484E00DE955A /* JobDetailsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDetailsInteractor.swift; sourceTree = "<group>"; };
+		D0BA586A2B9C995000DD2415 /* HomeServiceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeServiceTest.swift; sourceTree = "<group>"; };
+		D0BA586E2B9E2C2100DD2415 /* NetworkProviderContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkProviderContract.swift; sourceTree = "<group>"; };
+		D0BA58712B9E63BC00DD2415 /* NetworkAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkAssembly.swift; sourceTree = "<group>"; };
+		D0BA58742B9E6BB400DD2415 /* MockGraphQLActiveJobsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockGraphQLActiveJobsData.swift; sourceTree = "<group>"; };
+		D0BA58782B9EA99B00DD2415 /* XCTestCase+AwaitPublisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+AwaitPublisher.swift"; sourceTree = "<group>"; };
+		D0BA587A2B9EBAF100DD2415 /* GeneratedMocks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneratedMocks.swift; sourceTree = "<group>"; };
+		D0BA587C2B9ECFC000DD2415 /* HomeInteractorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractorTest.swift; sourceTree = "<group>"; };
+		D0BA587E2B9ED72D00DD2415 /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
+		D0BA58802B9ED82600DD2415 /* MockError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockError.swift; sourceTree = "<group>"; };
+		D0BA58822B9ED89A00DD2415 /* MockActiveJobsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockActiveJobsData.swift; sourceTree = "<group>"; };
+		D0BA58852B9EDD9700DD2415 /* HomeViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModelTest.swift; sourceTree = "<group>"; };
+		D0BA588A2B9F04CE00DD2415 /* AppliedJobsViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppliedJobsViewModelTest.swift; sourceTree = "<group>"; };
+		D0BA58912B9F0A9300DD2415 /* JobDetailsServiceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDetailsServiceTest.swift; sourceTree = "<group>"; };
+		D0BA58932B9F0B9700DD2415 /* MockGraphQLJobDetailsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockGraphQLJobDetailsData.swift; sourceTree = "<group>"; };
+		D0BA58952B9F125900DD2415 /* JobDetailsInteractorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDetailsInteractorTest.swift; sourceTree = "<group>"; };
+		D0BA58972B9F160600DD2415 /* JobDetailsViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDetailsViewModelTest.swift; sourceTree = "<group>"; };
+		D0BA58992B9F16C800DD2415 /* ApplyJobServiceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplyJobServiceTest.swift; sourceTree = "<group>"; };
+		D0BA589B2B9F317900DD2415 /* MockGraphQLApplyJobData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockGraphQLApplyJobData.swift; sourceTree = "<group>"; };
+		D0BA589D2B9F332600DD2415 /* ApplyJobInteractorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplyJobInteractorTest.swift; sourceTree = "<group>"; };
+		D0BA589F2B9F351D00DD2415 /* MockApplyJobData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockApplyJobData.swift; sourceTree = "<group>"; };
+		D0BA58A12B9F446900DD2415 /* SeekPlus.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = SeekPlus.xctestplan; sourceTree = "<group>"; };
+		D0BA58A62B9F519B00DD2415 /* LoginServiceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginServiceTest.swift; sourceTree = "<group>"; };
+		D0BA58A82B9F60C300DD2415 /* MockGraphQLLoginData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockGraphQLLoginData.swift; sourceTree = "<group>"; };
+		D0BA58AA2B9F7AB400DD2415 /* LoginInteractorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginInteractorTest.swift; path = SeekPlusTests/Features/Login/Domain/LoginInteractorTest.swift; sourceTree = SOURCE_ROOT; };
+		D0BA58AC2B9F7C4300DD2415 /* MockLoginData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockLoginData.swift; sourceTree = "<group>"; };
+		D0BA58AF2B9F84D800DD2415 /* LoginViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModelTest.swift; sourceTree = "<group>"; };
 		D0C8B8A62B96F2F7009DF37A /* ActivityIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorView.swift; sourceTree = "<group>"; };
 		D0C8B8A92B97172E009DF37A /* ActivityIndicatorEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorEvent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -204,6 +257,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0BA585A2B9B7B8700DD2415 /* Cuckoo in Frameworks */,
+				D0BA586D2B9E053300DD2415 /* SeekPlusAPITestMocks in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +275,7 @@
 		D04075BA2B85DAC200C0EC1F = {
 			isa = PBXGroup;
 			children = (
+				D0BA58A12B9F446900DD2415 /* SeekPlus.xctestplan */,
 				D040765C2B8B5CE300C0EC1F /* Graphql */,
 				D04075C52B85DAC200C0EC1F /* SeekPlus */,
 				D04075D62B85DAC300C0EC1F /* SeekPlusTests */,
@@ -265,7 +321,10 @@
 		D04075D62B85DAC300C0EC1F /* SeekPlusTests */ = {
 			isa = PBXGroup;
 			children = (
+				D0BA58652B9C98FF00DD2415 /* Features */,
+				D0BA585D2B9C984D00DD2415 /* Mocks */,
 				D04075D72B85DAC300C0EC1F /* SeekPlusTests.swift */,
+				D0BA58782B9EA99B00DD2415 /* XCTestCase+AwaitPublisher.swift */,
 			);
 			path = SeekPlusTests;
 			sourceTree = "<group>";
@@ -617,7 +676,9 @@
 		D04076662B8B627900C0EC1F /* NetworkService */ = {
 			isa = PBXGroup;
 			children = (
-				D04076642B8B5F0C00C0EC1F /* Network.swift */,
+				D0BA58702B9E63AE00DD2415 /* DI */,
+				D0BA586E2B9E2C2100DD2415 /* NetworkProviderContract.swift */,
+				D04076642B8B5F0C00C0EC1F /* NetworkProvider.swift */,
 				D04076692B8B73D600C0EC1F /* KeychainHelper.swift */,
 				D040766B2B8B742800C0EC1F /* TokenInterceptor.swift */,
 				D040766D2B8B74E900C0EC1F /* NetworkInterceptorProvider.swift */,
@@ -805,6 +866,202 @@
 			path = Data;
 			sourceTree = "<group>";
 		};
+		D0BA585D2B9C984D00DD2415 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				D0BA587A2B9EBAF100DD2415 /* GeneratedMocks.swift */,
+			);
+			name = Mocks;
+			sourceTree = "<group>";
+		};
+		D0BA58652B9C98FF00DD2415 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				D0BA58732B9E6B9200DD2415 /* MockData */,
+				D0BA58A22B9F465D00DD2415 /* Login */,
+				D0BA58662B9C990B00DD2415 /* Home */,
+				D0BA58872B9F048E00DD2415 /* AppliedJobs */,
+				D0BA588C2B9F0A2D00DD2415 /* JobDetails */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		D0BA58662B9C990B00DD2415 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D0BA58672B9C991200DD2415 /* UI */,
+				D0BA58682B9C991800DD2415 /* Domain */,
+				D0BA58692B9C992100DD2415 /* Data */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		D0BA58672B9C991200DD2415 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				D0BA58842B9EDD8500DD2415 /* ViewModel */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		D0BA58682B9C991800DD2415 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				D0BA587C2B9ECFC000DD2415 /* HomeInteractorTest.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		D0BA58692B9C992100DD2415 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				D0BA586A2B9C995000DD2415 /* HomeServiceTest.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		D0BA58702B9E63AE00DD2415 /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				D0BA58712B9E63BC00DD2415 /* NetworkAssembly.swift */,
+			);
+			path = DI;
+			sourceTree = "<group>";
+		};
+		D0BA58732B9E6B9200DD2415 /* MockData */ = {
+			isa = PBXGroup;
+			children = (
+				D0BA587E2B9ED72D00DD2415 /* MockData.swift */,
+				D0BA58802B9ED82600DD2415 /* MockError.swift */,
+				D0BA58742B9E6BB400DD2415 /* MockGraphQLActiveJobsData.swift */,
+				D0BA58822B9ED89A00DD2415 /* MockActiveJobsData.swift */,
+				D0BA58932B9F0B9700DD2415 /* MockGraphQLJobDetailsData.swift */,
+				D0BA589B2B9F317900DD2415 /* MockGraphQLApplyJobData.swift */,
+				D0BA589F2B9F351D00DD2415 /* MockApplyJobData.swift */,
+				D0BA58A82B9F60C300DD2415 /* MockGraphQLLoginData.swift */,
+				D0BA58AC2B9F7C4300DD2415 /* MockLoginData.swift */,
+			);
+			path = MockData;
+			sourceTree = "<group>";
+		};
+		D0BA58842B9EDD8500DD2415 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D0BA58852B9EDD9700DD2415 /* HomeViewModelTest.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D0BA58872B9F048E00DD2415 /* AppliedJobs */ = {
+			isa = PBXGroup;
+			children = (
+				D0BA58882B9F04A400DD2415 /* UI */,
+			);
+			path = AppliedJobs;
+			sourceTree = "<group>";
+		};
+		D0BA58882B9F04A400DD2415 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				D0BA58892B9F04AC00DD2415 /* ViewModel */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		D0BA58892B9F04AC00DD2415 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D0BA588A2B9F04CE00DD2415 /* AppliedJobsViewModelTest.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D0BA588C2B9F0A2D00DD2415 /* JobDetails */ = {
+			isa = PBXGroup;
+			children = (
+				D0BA588D2B9F0A3700DD2415 /* UI */,
+				D0BA588E2B9F0A3C00DD2415 /* Domain */,
+				D0BA588F2B9F0A4000DD2415 /* Data */,
+			);
+			path = JobDetails;
+			sourceTree = "<group>";
+		};
+		D0BA588D2B9F0A3700DD2415 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				D0BA58902B9F0A5600DD2415 /* ViewModel */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		D0BA588E2B9F0A3C00DD2415 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				D0BA58952B9F125900DD2415 /* JobDetailsInteractorTest.swift */,
+				D0BA589D2B9F332600DD2415 /* ApplyJobInteractorTest.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		D0BA588F2B9F0A4000DD2415 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				D0BA58912B9F0A9300DD2415 /* JobDetailsServiceTest.swift */,
+				D0BA58992B9F16C800DD2415 /* ApplyJobServiceTest.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		D0BA58902B9F0A5600DD2415 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D0BA58972B9F160600DD2415 /* JobDetailsViewModelTest.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D0BA58A22B9F465D00DD2415 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				D0BA58A32B9F468000DD2415 /* UI */,
+				D0BA58A42B9F468C00DD2415 /* Domain */,
+				D0BA58A52B9F469900DD2415 /* Data */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		D0BA58A32B9F468000DD2415 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				D0BA58AE2B9F84BD00DD2415 /* ViewModel */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		D0BA58A42B9F468C00DD2415 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				D0BA58AA2B9F7AB400DD2415 /* LoginInteractorTest.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		D0BA58A52B9F469900DD2415 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				D0BA58A62B9F519B00DD2415 /* LoginServiceTest.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		D0BA58AE2B9F84BD00DD2415 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D0BA58AF2B9F84D800DD2415 /* LoginViewModelTest.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		D0C8B8A52B96F2D3009DF37A /* ActivityIndicatorView */ = {
 			isa = PBXGroup;
 			children = (
@@ -854,6 +1111,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D04075EA2B85DAC300C0EC1F /* Build configuration list for PBXNativeTarget "SeekPlusTests" */;
 			buildPhases = (
+				D0BA585C2B9C94CA00DD2415 /* Generate mocks */,
 				D04075CF2B85DAC300C0EC1F /* Sources */,
 				D04075D02B85DAC300C0EC1F /* Frameworks */,
 				D04075D12B85DAC300C0EC1F /* Resources */,
@@ -864,6 +1122,10 @@
 				D04075D52B85DAC300C0EC1F /* PBXTargetDependency */,
 			);
 			name = SeekPlusTests;
+			packageProductDependencies = (
+				D0BA58592B9B7B8700DD2415 /* Cuckoo */,
+				D0BA586C2B9E053300DD2415 /* SeekPlusAPITestMocks */,
+			);
 			productName = SeekPlusTests;
 			productReference = D04075D32B85DAC300C0EC1F /* SeekPlusTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -923,6 +1185,7 @@
 				D04076542B8B37BB00C0EC1F /* XCRemoteSwiftPackageReference "apollo-ios" */,
 				D04076602B8B5E2F00C0EC1F /* XCLocalSwiftPackageReference "SeekPlusAPI" */,
 				D04076822B8BBEBD00C0EC1F /* XCRemoteSwiftPackageReference "SwinjectAutoregistration" */,
+				D0BA58582B9B7B8700DD2415 /* XCRemoteSwiftPackageReference "Cuckoo" */,
 			);
 			productRefGroup = D04075C42B85DAC200C0EC1F /* Products */;
 			projectDirPath = "";
@@ -982,6 +1245,24 @@
 			shellPath = /bin/sh;
 			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\nif [[ \"$(uname -m)\" == arm64 ]]; then\n    export PATH=\"/opt/homebrew/bin:$PATH\"\nfi\n\nif which swiftlint > /dev/null; then\n  swiftlint --fix && swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
 		};
+		D0BA585C2B9C94CA00DD2415 /* Generate mocks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Generate mocks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ $ACTION == \"indexbuild\" ]; then\n  echo \"Not running Cuckoo generator during indexing.\"\n  exit 0\nfi\n\n# Skip for preview builds\nif [ \"${ENABLE_PREVIEWS}\" = \"YES\" ]; then\n  echo \"Not running Cuckoo generator during preview builds.\"\n  exit 0\nfi\n\n# Define output file. Change \"${PROJECT_DIR}/${PROJECT_NAME}Tests\" to your test's root source folder, if it's not the default name.\nOUTPUT_FILE=\"${PROJECT_DIR}/${PROJECT_NAME}Tests/GeneratedMocks.swift\"\necho \"Generated Mocks File = ${OUTPUT_FILE}\"\n\n# Define input directory. Change \"${PROJECT_DIR}/${PROJECT_NAME}\" to your project's root source folder, if it's not the default name.\nINPUT_DIR=\"${PROJECT_DIR}/${PROJECT_NAME}\"\necho \"Mocks Input Directory = ${INPUT_DIR}\"\n\n# Generate mock files, include as many input files as you'd like to create mocks for.\n\"${BUILD_DIR%/Build/*}/SourcePackages/checkouts/Cuckoo/run\" generate --testable \"${PROJECT_NAME}\" \\\n--output \"${OUTPUT_FILE}\" \\\n\"${INPUT_DIR}/NetworkService/NetworkProviderContract.swift\" \\\n\"${INPUT_DIR}/Features/Home/Data/HomeServiceContract.swift\" \\\n\"${INPUT_DIR}/Features/Home/Domain/HomeInteractorContract.swift\" \\\n\"${INPUT_DIR}/Features/Home/UI/ViewModel/HomeViewModelContract.swift\" \\\n\"${INPUT_DIR}/Features/JobDetails/Data/JobDetails/JobDetailsServiceContract.swift\" \\\n\"${INPUT_DIR}/Features/JobDetails/Domain/JobDetails/JobDetailsInteractorContract.swift\" \\\n\"${INPUT_DIR}/Features/JobDetails/Data/ApplyJob/ApplyJobServiceContract.swift\" \\\n\"${INPUT_DIR}/Features/JobDetails/Domain/ApplyJob/ApplyJobInteractorContract.swift\" \\\n\"${INPUT_DIR}/Features/Login/Data/LoginServiceContract.swift\" \\\n\"${INPUT_DIR}/Features/Login/Domain/LoginInteractorContract.swift\"\n\n# ... and so forth, the last line should never end with a backslash\n\n# After running once, locate `GeneratedMocks.swift` and drag it into your Xcode test target group.\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -998,8 +1279,9 @@
 				D04076882B8BC51700C0EC1F /* AppDelegate.swift in Sources */,
 				D04076252B873D4000C0EC1F /* DefaultTextFieldStyle.swift in Sources */,
 				D04076192B8703AC00C0EC1F /* TextAttributes.swift in Sources */,
-				D04076652B8B5F0C00C0EC1F /* Network.swift in Sources */,
+				D04076652B8B5F0C00C0EC1F /* NetworkProvider.swift in Sources */,
 				D0801AE82B8C3E9700DE955A /* ApplyJobInteractorContract.swift in Sources */,
+				D0BA586F2B9E2C2100DD2415 /* NetworkProviderContract.swift in Sources */,
 				D04076322B87889B00C0EC1F /* JobCardContent.swift in Sources */,
 				D0801AEF2B8C400700DE955A /* ApplyJobService.swift in Sources */,
 				D040766C2B8B742800C0EC1F /* TokenInterceptor.swift in Sources */,
@@ -1038,6 +1320,7 @@
 				D0801AE02B8C193800DE955A /* AuthApiModel.swift in Sources */,
 				D0801ADB2B8C184000DE955A /* LoginService.swift in Sources */,
 				D040760F2B86E1C900C0EC1F /* ImageAttributes.swift in Sources */,
+				D0BA58722B9E63BC00DD2415 /* NetworkAssembly.swift in Sources */,
 				D07EC8232B8C4DED003CA4B6 /* JobDetailsAssembly.swift in Sources */,
 				D0801AD72B8C17B000DE955A /* LoginServiceContract.swift in Sources */,
 				D0801AF42B8C42F800DE955A /* JobDetailsViewModelContract.swift in Sources */,
@@ -1063,7 +1346,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0BA58922B9F0A9300DD2415 /* JobDetailsServiceTest.swift in Sources */,
+				D0BA58792B9EA99B00DD2415 /* XCTestCase+AwaitPublisher.swift in Sources */,
+				D0BA58832B9ED89A00DD2415 /* MockActiveJobsData.swift in Sources */,
 				D04075D82B85DAC300C0EC1F /* SeekPlusTests.swift in Sources */,
+				D0BA589C2B9F317900DD2415 /* MockGraphQLApplyJobData.swift in Sources */,
+				D0BA58862B9EDD9700DD2415 /* HomeViewModelTest.swift in Sources */,
+				D0BA586B2B9C995000DD2415 /* HomeServiceTest.swift in Sources */,
+				D0BA58A72B9F519B00DD2415 /* LoginServiceTest.swift in Sources */,
+				D0BA58AD2B9F7C4300DD2415 /* MockLoginData.swift in Sources */,
+				D0BA589A2B9F16C800DD2415 /* ApplyJobServiceTest.swift in Sources */,
+				D0BA588B2B9F04CE00DD2415 /* AppliedJobsViewModelTest.swift in Sources */,
+				D0BA587D2B9ECFC100DD2415 /* HomeInteractorTest.swift in Sources */,
+				D0BA58752B9E6BB400DD2415 /* MockGraphQLActiveJobsData.swift in Sources */,
+				D0BA58A92B9F60C300DD2415 /* MockGraphQLLoginData.swift in Sources */,
+				D0BA587F2B9ED72D00DD2415 /* MockData.swift in Sources */,
+				D0BA58812B9ED82600DD2415 /* MockError.swift in Sources */,
+				D0BA58B02B9F84D800DD2415 /* LoginViewModelTest.swift in Sources */,
+				D0BA58962B9F125900DD2415 /* JobDetailsInteractorTest.swift in Sources */,
+				D0BA58982B9F160600DD2415 /* JobDetailsViewModelTest.swift in Sources */,
+				D0BA589E2B9F332600DD2415 /* ApplyJobInteractorTest.swift in Sources */,
+				D0BA58A02B9F351D00DD2415 /* MockApplyJobData.swift in Sources */,
+				D0BA58942B9F0B9700DD2415 /* MockGraphQLJobDetailsData.swift in Sources */,
+				D0BA58AB2B9F7AB400DD2415 /* LoginInteractorTest.swift in Sources */,
+				D0BA587B2B9EBAF100DD2415 /* GeneratedMocks.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1416,6 +1722,14 @@
 				version = 2.8.3;
 			};
 		};
+		D0BA58582B9B7B8700DD2415 /* XCRemoteSwiftPackageReference "Cuckoo" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Brightify/Cuckoo.git";
+			requirement = {
+				kind = exactVersion;
+				version = 1.10.4;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -1447,6 +1761,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = D04076822B8BBEBD00C0EC1F /* XCRemoteSwiftPackageReference "SwinjectAutoregistration" */;
 			productName = "SwinjectAutoregistration-Dynamic";
+		};
+		D0BA58592B9B7B8700DD2415 /* Cuckoo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D0BA58582B9B7B8700DD2415 /* XCRemoteSwiftPackageReference "Cuckoo" */;
+			productName = Cuckoo;
+		};
+		D0BA586C2B9E053300DD2415 /* SeekPlusAPITestMocks */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D04076602B8B5E2F00C0EC1F /* XCLocalSwiftPackageReference "SeekPlusAPI" */;
+			productName = SeekPlusAPITestMocks;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

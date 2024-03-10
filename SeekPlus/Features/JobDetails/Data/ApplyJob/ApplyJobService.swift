@@ -10,10 +10,15 @@ import Apollo
 import SeekPlusAPI
 
 struct ApplyJobService: ApplyJobServiceContract {
+    private let networkProvider: NetworkProviderContract
+
+    init(networkProvider: NetworkProviderContract) {
+        self.networkProvider = networkProvider
+    }
+
     func applyForJob(_ id: String) -> ApplyJobPublisher {
         return Future { promise in
-            Network.shared
-                .apollo
+            _ = networkProvider
                 .perform(mutation: ApplyMutation(jobId: id)) { result in
                     switch result {
                     case .success(let graphQLResult):

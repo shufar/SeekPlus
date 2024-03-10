@@ -7,7 +7,7 @@
 
 import Combine
 
-final class HomeViewModel: HomeViewModelContract {
+final class HomeViewModel: HomeViewModelContract, ObservableObject {
     @Published var jobs: [JobApiModel] = []
     @Published var activityIndicator: ActivityIndicatorEvent = .hideIndicator
 

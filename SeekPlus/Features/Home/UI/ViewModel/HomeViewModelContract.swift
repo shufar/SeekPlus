@@ -7,7 +7,7 @@
 
 import Foundation
 
-protocol HomeViewModelContract: ObservableObject {
+protocol HomeViewModelContract {
     var jobs: [JobApiModel] { get }
     var activityIndicator: ActivityIndicatorEvent { get }
 

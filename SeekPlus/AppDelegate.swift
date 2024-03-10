@@ -15,7 +15,9 @@ class AppDelegate: NSObject, UIApplicationDelegate {
         return container
     }()
 
-    static let baseAssebler: Assembler = Assembler([LoginAssembly()], container: baseContainer)
+    static let baseAssebler: Assembler = Assembler([NetworkAssembly(),
+                                                    LoginAssembly()],
+                                                   container: baseContainer)
 
     func application(_ application: UIApplication,
                      didFinishLaunchingWithOptions launchOptions:

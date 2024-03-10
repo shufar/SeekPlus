@@ -19,7 +19,7 @@ struct TabBarView: View {
         TabView(selection: $currentSelectedTab) {
             HomeView(
                 homeViewModel:
-                    self.assembly.resolver.resolve((any HomeViewModelContract).self)!)
+                    self.assembly.resolver.resolve(HomeViewModelContract.self)!)
             .tabItem {
                 VStack(alignment: .center, spacing: .zero) {
                     TabBarItem.home.image

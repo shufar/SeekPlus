@@ -10,10 +10,15 @@ import Apollo
 import SeekPlusAPI
 
 struct LoginService: LoginServiceContract {
+    private let networkProvider: NetworkProviderContract
+
+    init(networkProvider: NetworkProviderContract) {
+        self.networkProvider = networkProvider
+    }
+
     func login(_ userName: String, _ password: String) -> LoginPublisher {
         return Future { promise in
-            Network.shared
-                .apollo
+            _ = networkProvider
                 .perform(mutation: AuthUserMutation(username: userName,
                                                     password: password)) { result in
                     switch result {

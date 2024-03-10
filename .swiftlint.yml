@@ -26,6 +26,7 @@ excluded: # case-sensitive paths to ignore during linting. Takes precedence over
   - Sources/*/ExcludedFile.swift # exclude files with a wildcard
   - GraphQL
   - SeekPlusAPI
+  - SeekPlusTests/GeneratedMocks.swift
 
 # If true, SwiftLint will not fail if no lintable files are found.
 allow_zero_lintable_files: false
